@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
  $.ajaxSetup({ cache: false });
  $('#search').keyup(function(){
@@ -8,7 +7,7 @@ $(document).ready(function(){
   var expression = new RegExp(searchField, "i");
   $.getJSON('data.json', function(data) {
    $.each(data, function(key, value){
-    if (value.titel.search(expression) != -1 || value.schrijvers.search(expression) != -1 || value.beschrijving.search(expression) != -1 || value.jaartal.search(expression) != -1)
+    if (value.name.search(expression) != -1 || value.location.search(expression) != -1)
     {
      $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
     }
