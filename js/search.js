@@ -28,14 +28,15 @@ $(document).ready(function(){
           }
 
         }
-        else if (searchValue == '') {
-          $('#results').append('EMPTY')
-        }
         else {
           $('#results').empty();
           $('#results').html('<center><font><h3>Geen resultaten gevonden</h3></font></center>')
         }
       })
+    }
+    else {
+      $('#results').empty();
+      $('#results').html('<center><font><h3>Geen tekst</h3></font></center>')
     }
   })
 })
