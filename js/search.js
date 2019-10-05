@@ -18,10 +18,11 @@ $(document).ready(function(){
         };
         var fuse = new Fuse(list, options);
         var searchResult = fuse.search(searchValue);
+        console.log(searchResult)
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('results').append('<div class="res"><h3>'+searchResult[i].titel+'</h3><p>'+searchResult[i].schrijver+'</p></div>')
+            $('#results').append('<div class="res"><h3>'+searchResult[i].titel+'</h3><p>'+searchResult[i].schrijver+'</p></div>')
           }
 
         }
