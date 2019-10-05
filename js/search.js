@@ -15,7 +15,8 @@ $(document).ready(function(){
             "titel",
             "schrijver",
             "beschrijving",
-            "vakgebied"
+            "vakgebied",
+            "id"
           ]
         };
         var fuse = new Fuse(list, options);
