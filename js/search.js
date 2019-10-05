@@ -10,7 +10,7 @@ $(document).ready(function(){
           location: 0,
           distance: 100,
           maxPatternLength: 32,
-          minMatchCharLength: 2,
+          minMatchCharLength: 5,
           keys: [
             "titel",
             "schrijver",
@@ -24,7 +24,7 @@ $(document).ready(function(){
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('#results').append('<div class="res"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="boeken/'+searchResult[i].id+'.html">Bekijk</a></div>')
+            $('#results').append('<div class="res"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="boeken/'+searchResult[i].id+'.html"> >> Bekijk</a></div>')
           }
 
         }
