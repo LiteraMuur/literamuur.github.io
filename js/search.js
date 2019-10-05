@@ -36,7 +36,7 @@ $(document).ready(function(){
     }
     else {
       $('#results').empty();
-      $('#results').html('<center><font><h3>Geen tekst</h3></font></center>')
+      $('#results').html('')
     }
   })
 })
