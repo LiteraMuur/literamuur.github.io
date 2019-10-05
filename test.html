@@ -16,10 +16,20 @@
         background-color: #dddddd;
         outline: none;
       }
+      #results {
+        margin-top: 150px;
+      }
+      .res {
+        font-family: sans-serif;
+        border: solid 1px rgb(189, 189, 189);
+        padding: 20px 40px;
+        margin-bottom: 20px;
+      }
     </style>
   </head>
   <body>
     <input id="search" class="bar" placeholder="Zoek naar literatuur..." type="text">
+    <div id="results"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/search.js"></script>
