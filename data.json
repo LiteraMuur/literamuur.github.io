@@ -12,14 +12,14 @@
     "titel":"Praktische didactiek voor natuuronderwijs",
     "schrijver":"Els de Vaan & Jos Marell",
     "beschrijving": "Voorbeeld van een beschrijving.",
-    "beschrijving": "Nog een beschrijving.",
     "image": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/8/3/3/9200000001973388.jpg",
     "vakgebied": "natuuronderwijs"
   },
   {
     "id": "0003",
-    "titel":"Kijk op spel",
+    "titel": "Kijk op spel",
     "schrijver":"Holger de Nooij",
+    "beschrijving": "Nog een beschrijving.",
     "image": "https://i.mgtbk.nl/boeken/9789001866259-480x600.jpg",
     "vakgebied": "drama"
   }

@@ -28,6 +28,9 @@ $(document).ready(function(){
           }
 
         }
+        elseif (searchValue == '') {
+          $('#results').append('EMPTY')
+        }
         else {
           $('#results').empty();
           $('#results').html('<center><font><h3>Geen resultaten gevonden</h3></font></center>')
