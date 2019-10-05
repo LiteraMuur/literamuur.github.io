@@ -6,7 +6,7 @@ $(document).ready(function(){
         var list = result;
         var options = {
           shouldSort: true,
-          threshold: 0.3,
+          threshold: 0.5,
           location: 0,
           distance: 100,
           maxPatternLength: 32,
@@ -26,9 +26,12 @@ $(document).ready(function(){
           }
 
         }
+        else if (searchValue = "") {
+          $('#results').empty();
+        }
         else {
           $('#results').empty();
-          $('#results').html('<center><font face="sans-serif"><h3>Geen resultaten gevonden.</h3></font></center>')
+          $('#results').html('<center><font face="sans-serif"><h3>Geen resultaten gevonden</h3></font></center>')
         }
       })
     }
