@@ -28,7 +28,7 @@ $(document).ready(function(){
           }
 
         }
-        elseif (searchValue == '') {
+        else if (searchValue == '') {
           $('#results').append('EMPTY')
         }
         else {
