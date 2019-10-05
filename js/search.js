@@ -23,12 +23,9 @@ $(document).ready(function(){
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('#results').append('<div class="res"><b>'+searchResult[i].titel+'</b> | <font color ="#dddddd">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p></div>')
+            $('#results').append('<div class="res"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p></div>')
           }
 
-        }
-        else if (searchValue = "") {
-          $('#results').empty();
         }
         else {
           $('#results').empty();
