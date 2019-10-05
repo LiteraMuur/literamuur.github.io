@@ -13,7 +13,8 @@ $(document).ready(function(){
           minMatchCharLength: 2,
           keys: [
             "titel",
-            "schrijver"
+            "schrijver",
+            "beschrijving"
           ]
         };
         var fuse = new Fuse(list, options);
@@ -22,7 +23,7 @@ $(document).ready(function(){
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('#results').append('<div class="res"><h3>'+searchResult[i].titel+'</h3><p>'+searchResult[i].schrijver+'</p></div>')
+            $('#results').append('<div class="res"><b>'+searchResult[i].titel+'</b> | <font color ="#dddddd">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p></div>')
           }
 
         }
