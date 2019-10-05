@@ -23,6 +23,12 @@
   <link rel="stylesheet" href="css/barebones.css">
   <link rel="stylesheet" href="css/custom.css">
 
+  <!-- Scripts for search engine
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/search.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon-16.png">
@@ -34,38 +40,50 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <nav class="navbar" id="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="index.html">LITERAMUUR</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="index.html">LITERAMUUR</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="grid-container halves">
-      <div>
-        <h4>Zoek test</h4>
+    <div>
+      <h4>Zoek test</h4>
 
-        <form action="search.html" method="get">
-          <label for="search-box">Search</label>
-          <input type="text" id="search-box" name="query">
-          <input type="submit" value="search">
-        </form>
+      <style>
+      #result {
+        position: absolute;
+        width: 100%;
+        max-width:870px;
+        cursor: pointer;
+        overflow-y: auto;
+        max-height: 400px;
+        box-sizing: border-box;
+        z-index: 1001;
+      }
+      .link-class:hover{
+        background-color:#f1f1f1;
+      }
+      </style>
 
-        <ul id="search-results"></ul>
-
-<script>
-  "titel": "{{titel}}"
-</script>
-<script src="/js/lunr.min.js"></script>
-<script src="/js/search.js"></script>
-
+      <br /><br />
+      <div class="container" style="width:900px;">
+        <br /><br />
+        <div align="center">
+          <input type="text" name="search" id="search" placeholder="Zoek literatuur..." class="form-control" />
+        </div>
+        <ul class="list-group" id="result"></ul>
+        <br />
       </div>
+
     </div>
   </div>
+</div>
 
 <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
