@@ -171,6 +171,35 @@ i.fas, i.fab {
     width: 80%; }
 }
 
+/* ---- Search ---- */
+.bar {
+	padding: 10px 20px;
+	font-size: 20px;
+	border: solid 1px rgb(189, 189, 189);
+	top: 100px;
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 5%;
+	background-color: #f3f3f3;
+	outline: none;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#results {
+	margin-top: 50px;
+}
+.res {
+	border: solid 1px rgb(189, 189, 189);
+	padding: 20px 40px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	width: 90%;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 
 /* ---- Buttons ---- */
 @media (min-width: 600px) {
