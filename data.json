@@ -1,26 +1,23 @@
 [
   {
     "id": "00001",
-    "titel":"Opbrengstgericht onderwijs ontwerpen",
-    "schrijver":"Anouke Bakx, Anje Ros & Peter Teune",
+    "titel": "Opbrengstgericht onderwijs ontwerpen",
+    "schrijver": "Anouke Bakx, Anje Ros & Peter Teune",
     "beschrijving": "Super interessante beschrijving.",
-    "image": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/0/8/5/9200000001205808.jpg",
     "vakgebied": "onderwijskunde en pedagogiek"
   },
   {
     "id": "00002",
-    "titel":"Praktische didactiek voor natuuronderwijs",
-    "schrijver":"Els de Vaan & Jos Marell",
+    "titel": "Praktische didactiek voor natuuronderwijs",
+    "schrijver": "Els de Vaan & Jos Marell",
     "beschrijving": "Voorbeeld van een beschrijving.",
-    "image": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/8/3/3/9200000001973388.jpg",
     "vakgebied": "natuuronderwijs"
   },
   {
     "id": "00003",
     "titel": "Kijk op spel",
-    "schrijver":"Holger de Nooij",
+    "schrijver": "Holger de Nooij",
     "beschrijving": "Nog een beschrijving.",
-    "image": "https://i.mgtbk.nl/boeken/9789001866259-480x600.jpg",
     "vakgebied": "drama"
   }
 ]
