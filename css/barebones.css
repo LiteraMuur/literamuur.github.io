@@ -173,6 +173,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+	margin-top: 10em;
   font-size: 1.6rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
   font-weight: 400;

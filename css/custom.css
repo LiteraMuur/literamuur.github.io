@@ -125,7 +125,7 @@ i.fas, i.fab {
 
 /* ---- Nav ---- */
   .navbar + .docs-section {
-    border-top-width: 0; }
+    border-top-width: 0;	}
   .navbar,
   .navbar-spacer {
     display: block;
@@ -173,7 +173,7 @@ i.fas, i.fab {
 	    color: var(--text-color-normal); }
   .navbar-link.active {
     color: var(--accent-color); }
-  .has-docked-nav .navbar {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0; }
@@ -183,14 +183,40 @@ i.fas, i.fab {
   .has-docked-nav .navbar > .container {
     width: 80%; }
 
+/* ---- Footer ---- */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+	border-top: 1px solid var(--border-color-softer);
+
+	/* ---- Footer Font ---- */
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	font-weight: 0;
+	letter-spacing: .2rem;
+	margin-right: 1.25rem;
+	text-decoration: none;
+	line-height: 4rem;
+	color: var(--text-color-normal);
+}
+.footer a {
+		color: var(--text-color-normal);
+}
+
 /* ---- Search ---- */
 .bar {
 	padding: 10px 20px;
 	font-size: 20px;
+	position: fixed;
 	border: solid 1px rgb(189, 189, 189);
-	top: 100px;
+	top: 1em;
 	width: 90%;
-	margin-top: 4em;
+	margin-top: 3.5em;
 	margin-left: 5%;
 	background-color: #f3f3f3;
 	outline: none;
@@ -198,8 +224,20 @@ i.fas, i.fab {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.barbackground {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 8.43em;
+	background-color: #fff;
+	outline: none;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 #results {
-	margin-top: 4em;
+	margin-top: 0em;
 }
 .res {
 	border: solid 1px rgb(189, 189, 189);

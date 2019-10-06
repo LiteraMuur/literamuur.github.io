@@ -55,6 +55,7 @@
   <div class="grid-container halves">
     <div>
 
+      <div class="barbackground"></div>
       <input id="search" class="bar" placeholder="Zoek naar literatuur..." type="text">
       <div id="results"></div>
 
@@ -67,6 +68,14 @@
     </div>
   </div>
 </div>
+
+
+<nav class="footer" id="footer">
+  Copyright &copy; <span id="year"></span> | <a href="index.html">LiteraMuur</a>
+</nav>
+
+<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
