@@ -124,9 +124,6 @@ i.fas, i.fab {
 }
 
 /* ---- Nav ---- */
-.navbar {
-  display: none; }
-@media (min-width: 600px) {
   .navbar + .docs-section {
     border-top-width: 0; }
   .navbar,
@@ -169,7 +166,6 @@ i.fas, i.fab {
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
     width: 80%; }
-}
 
 /* ---- Search ---- */
 .bar {
@@ -178,7 +174,7 @@ i.fas, i.fab {
 	border: solid 1px rgb(189, 189, 189);
 	top: 100px;
 	width: 90%;
-	margin-top: 50px;
+	margin-top: 4em;
 	margin-left: 5%;
 	background-color: #f3f3f3;
 	outline: none;
@@ -187,19 +183,35 @@ i.fas, i.fab {
   -webkit-box-sizing: border-box;
 }
 #results {
-	margin-top: 50px;
+	margin-top: 4em;
 }
 .res {
 	border: solid 1px rgb(189, 189, 189);
-	padding: 20px 40px;
-	margin-bottom: 20px;
+	padding: 2em 2.625em;
+	margin-bottom: 2em;
 	margin-left: 5%;
+	overflow:auto;
 	width: 90%;
+	height: auto;
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-
+.coverfoto {
+	height: 12em;
+	border: solid 1px rgb(189, 189, 189);
+	padding: 0.2em;
+}
+@media (min-width: 600px) {
+	.coverfoto {
+		float: left;
+	}
+}
+@media (min-width: 600px) {
+.informatie {
+	margin-left: 10em;
+}
+}
 
 /* ---- Buttons ---- */
 @media (min-width: 600px) {
