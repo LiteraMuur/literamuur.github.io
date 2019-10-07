@@ -53,21 +53,18 @@
     <div>
       <h4>Test</h4>
 
-      <div id="container">
+      <div id="boekinformatie">
         <div id="output">Heulemaal niets.</div>
       </div>
 
-
       <script>
-      var jsonFile;
-      fetch("data.json")
-        .then(res => res.json())
-        .then(data => jsonFile = JSON.parse(data));
-      var output = document.getElementById('output');
-      output.innerHTML = jsonFile[1].titel;
+      $(document).ready(function(){
+        $.getJSON("data.json", funcion(data){
+          var boekinformatie = '';
+          $('#boekinformatie').append('<div id="output">' + boekinformatie[2].titel + '</div>');
+        });
+      });
       </script>
-      <script type="text/javascript" src="data.json"></script>
-
 
     </div>
   </div>
