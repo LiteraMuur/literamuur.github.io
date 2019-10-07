@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>LiteraMuur | Literatuur voor de PABO</title>
+  <title>LiteraMuur</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -23,10 +23,10 @@
   <link rel="stylesheet" href="css/barebones.css">
   <link rel="stylesheet" href="css/custom.css">
 
-  <!-- Scripts for Fuse.js
+  <!-- Scripts for search engine
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/search.js"></script>
 
   <!-- Favicon
@@ -41,11 +41,8 @@
 
   <nav class="navbar" id="navbar">
     <div class="container">
-      <img src="images/favicon-16.png">
       <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link-name" href="index.html">LiteraMuur</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="index.html">LiteraTip</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="index.html">Help</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="index.html">LITERAMUUR</a></li>
       </ul>
     </div>
   </nav>
@@ -54,30 +51,27 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="grid-container halves">
     <div>
+      <h4>Test</h4>
 
-      <div class="barbackground"></div>
-      <input id="search" class="bar" placeholder="Zoek naar literatuur..." type="text">
-      <div id="results"></div>
-      <div>&nbsp;</div>
+      <div id="container">
+        <div id="output">Heulemaal niets.</div>
+      </div>
+
 
       <script>
-      window.onload = function() {
-        document.getElementById('search').value = '';
-      }
+      var jsonFile;
+      fetch("data.json")
+        .then(res => res.json())
+        .then(data => jsonFile = JSON.parse(data));
+      var output = document.getElementById('output');
+      output.innerHTML = mydata[1].titel;
       </script>
+      <script type="text/javascript" src="data.json"></script>
+
 
     </div>
   </div>
 </div>
-
-
-<nav class="footer" id="footer">
-  Copyright &copy; <span id="year"></span> | <a href="index.html">LiteraMuur</a>
-
-</nav>
-
-<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
