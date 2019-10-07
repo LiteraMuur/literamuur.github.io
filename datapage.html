@@ -64,7 +64,7 @@
         .then(res => res.json())
         .then(data => jsonFile = JSON.parse(data));
       var output = document.getElementById('output');
-      output.innerHTML = mydata[1].titel;
+      output.innerHTML = jsonFile[1].titel;
       </script>
       <script type="text/javascript" src="data.json"></script>
 
