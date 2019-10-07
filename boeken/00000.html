@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>LiteraMuur</title>
+  <title>LiteraMuur | Literatuur voor de PABO</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -19,19 +19,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/barebones.css">
-  <link rel="stylesheet" href="css/custom.css">
-
-  <!-- Scripts for search engine
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="data.json"></script>
-  <script src="js/boekinformatie.js"></script>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/barebones.css">
+  <link rel="stylesheet" href="../css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon-16.png">
+  <link rel="icon" type="image/png" href="../images/favicon-16.png">
 
 </head>
 <body>
@@ -41,8 +35,11 @@
 
   <nav class="navbar" id="navbar">
     <div class="container">
+      <img src="../images/favicon-16.png">
       <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="index.html">LITERAMUUR</a></li>
+        <li class="navbar-item"><a class="navbar-link-name" href="../index.html">LiteraMuur</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="../index.html">LiteraTip</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="../index.html">Help</a></li>
       </ul>
     </div>
   </nav>
@@ -51,23 +48,47 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="grid-container halves">
     <div>
-      <h4>Test</h4>
 
-      <div id="container">
-        <div id="output">Heulemaal niets.</div>
+      <div class="boek">
+
+        <!-- Cover -->
+        <img class="coverfoto" src="../images/covers/00000.jpg">
+
+        <!-- Titel en schrijver -->
+        <div class="informatie"><b>Het grote boek</b> | <font color ="#5c5c5c">Sint Nicolaas</font>
+
+          <!-- Beschrijving -->
+          <p> Het boek van Sinterklaas staat vol namen van kinderen. Deze kinderen wonen in Nederland en wachten tot de Sint langs komt en een pakje brengt. Bij iedere naam staat hoe oud het kind is, wat het kind leuk vindt om te doen en waar het van houdt en of het wel lief geweest is. Ook kinderen die niet zo heel lief zijn geweest staan in het boek en soms staat daar wel eens bij dat dit kind eigenlijk de roe zou moeten krijgen.</p>
+
+        </div>
       </div>
 
-      <script>
-      var data = JSON.parse(data);
+      <div class="boek">
 
-      var output = document.getElementById('output');
+        <!-- Titel en schrijver -->
+        APA notatie | <font color ="#5c5c5c">
 
-      output.innerHTML = data.titel
-      </script>
+          Nicolaas, S. (280AD). <i>Het grote boek</i>. Antalya, Turkije: De Pepernootfabriek.
+
+        </font>
+
+      </div>
+
+      <div class="blank"></div>
+
 
     </div>
   </div>
 </div>
+
+
+<nav class="footer" id="footer">
+  Copyright &copy; <span id="year"></span> | <a href="../index.html">LiteraMuur</a>
+
+</nav>
+
+<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
