@@ -19,7 +19,7 @@ $(document).ready(function(){
           ]
         };
         var fuse = new Fuse(list, options);
-        var searchResult = fuse.search('drama' + searchValue);
+        var searchResult = fuse.search('drama ' + searchValue);
         console.log(searchResult)
         if(searchResult.length > 0) {
           $('#results').empty();
