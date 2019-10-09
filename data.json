@@ -5,6 +5,7 @@
     "schrijver": "Anouke Bakx, Anje Ros & Peter Teune",
     "beschrijving": "Super interessante beschrijving.",
     "vakgebied": "onderwijskunde en pedagogiek"
+    "tags": [""]
   },
   {
     "id": "00002",
@@ -12,6 +13,7 @@
     "schrijver": "Els de Vaan & Jos Marell",
     "beschrijving": "Voorbeeld van een beschrijving.",
     "vakgebied": "natuuronderwijs"
+    "tags": [""]
   },
   {
     "id": "00003",
@@ -19,5 +21,6 @@
     "schrijver": "Holger de Nooij",
     "beschrijving": "Nog een beschrijving.",
     "vakgebied": "drama"
+    "tags": [""]
   }
 ]
