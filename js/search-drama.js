@@ -15,7 +15,7 @@ $(document).ready(function(){
             "titel",
             "schrijver",
             "beschrijving",
-            "vakgebied"
+            "vakgebied.drama"
           ]
         };
         var fuse = new Fuse(list, options);
@@ -23,11 +23,9 @@ $(document).ready(function(){
         console.log(searchResult)
         if(searchResult.length > 0) {
           $('#results').empty();
-          if (searchResult[i].vakgebied = 'drama'){
           for(i = 0; i < searchResult.length; i++) {
             $('#results').append('<div class="res"><img class="coverfoto" src="images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
           }
-        }
 
         }
         else {
