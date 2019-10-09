@@ -6,6 +6,7 @@ $(document).ready(function(){
         var list = result;
         var options = {
           shouldSort: true,
+          tokenize: true,
           threshold: 0.4,
           location: 0,
           distance: 100,
