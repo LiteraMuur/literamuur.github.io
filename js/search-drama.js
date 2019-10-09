@@ -20,15 +20,12 @@ $(document).ready(function(){
         };
         var fuse = new Fuse(list, options);
         var searchResult = fuse.search(searchValue);
+        var vakgebied.value = "drama";
         console.log(searchResult)
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            if (searchResult.vakgebied = 'drama'){
             $('#results').append('<div class="res"><img class="coverfoto" src="images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
-          }
-          else {
-          }
           }
 
         }
