@@ -282,6 +282,24 @@ i.fas, i.fab {
   -webkit-box-sizing: border-box;
 }
 
+/* ---- 404 ---- */
+.errorfoto {
+	width: 13em;
+	border: solid 1px rgb(189, 189, 189);
+	padding: 0.2em;
+}
+@media (min-width: 600px) {
+	.errorfoto {
+		float: left;
+		width: 20em;
+	}
+}
+@media (min-width: 600px) {
+.errorinformatie {
+	margin-left: 22em;
+}
+}
+
 /* ---- Buttons ---- */
 @media (min-width: 600px) {
 	#buttons .grid-container.quarters {
