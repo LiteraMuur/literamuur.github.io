@@ -20,7 +20,6 @@ $(document).ready(function(){
         };
         var fuse = new Fuse(list, options);
         var searchResult = fuse.search(searchValue);
-        var vakgebied.value = "drama";
         console.log(searchResult)
         if(searchResult.length > 0) {
           $('#results').empty();
