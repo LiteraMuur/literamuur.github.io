@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var searchValue = 'rekenen-wiskunde';
     if(searchValue != '') {
-      $.getJSON('rekenen-wiskunde.json', function(result){
+      $.getJSON('hele-getallen.json', function(result){
         var list = result;
         var options = {
           shouldSort: true,
