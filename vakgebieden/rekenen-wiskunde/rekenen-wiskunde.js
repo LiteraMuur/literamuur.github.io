@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var searchValue = '0';
+    var searchValue = 'rekenen-wiskunde';
     if(searchValue != '') {
       $.getJSON('rekenen-wiskunde.json', function(result){
         var list = result;
@@ -11,7 +11,7 @@ $(document).ready(function(){
           maxPatternLength: 32,
           minMatchCharLength: 5,
           keys: [
-            "id"
+            "vakgebied"
           ]
         };
         var fuse = new Fuse(list, options);
