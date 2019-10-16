@@ -224,6 +224,20 @@ i.fas, i.fab {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.barsmall {
+	padding: 10px 20px;
+	font-size: 20px;
+	border: solid 1px rgb(189, 189, 189);
+	top: 1em;
+	width: 100%;
+	margin-left: auto;
+  margin-right: auto;
+	background-color: #f3f3f3;
+	outline: none;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 .barbackground {
 	position: fixed;
 	top: 0;
@@ -242,7 +256,8 @@ i.fas, i.fab {
 .res {
 	border: solid 1px rgb(189, 189, 189);
 	padding: 2em 2.625em;
-	margin-bottom: 2em;
+	margin-top: -5em;
+	margin-bottom: 6em;
 	margin-left: 5%;
 	overflow:auto;
 	width: 90%;
@@ -265,6 +280,14 @@ i.fas, i.fab {
 .informatie {
 	margin-left: 10em;
 }
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
 
 /* ---- Bookpage ---- */
