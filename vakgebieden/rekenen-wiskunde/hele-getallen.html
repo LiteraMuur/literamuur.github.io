@@ -19,19 +19,19 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/barebones.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/barebones.css">
+  <link rel="stylesheet" href="../../css/custom.css">
 
   <!-- Scripts for Fuse.js
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="js/search.js"></script>
+  <script src="rekenen-wiskunde.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon-16.png">
+  <link rel="icon" type="image/png" href="../../images/favicon-16.png">
 
 </head>
 <body>
@@ -41,11 +41,11 @@
 
   <nav class="navbar" id="navbar">
     <div class="container">
-      <img src="images/favicon-16.png">
+      <img src="../../images/favicon-16.png">
       <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link-name" href="index.html">LiteraMuur</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="index.html">LiteraTip</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="help.html">Help</a></li>
+        <li class="navbar-item"><a class="navbar-link-name" href="../../index.html">LiteraMuur</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="../../literatip.html">LiteraTip</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="../../help.html">Help</a></li>
       </ul>
     </div>
   </nav>
@@ -57,37 +57,13 @@
 
       <div class="boek">
 
-        <p><b>Zoek in alle literatuur</b></p>
+        <p><b>Resultaten</b></p>
 
-        <p>
-          <input id="search" class="barsmall" placeholder="Zoek naar literatuur..." type="text">
-        </p>
+        <p>Hieronder staat de gevonden literatuur. Klik <a href="../../index.html">hier</a> om terug te gaan naar het begin van de LiteraMuur, of klik op <i>>> bekijk</i> bij een boek om meer informatie te lezen.</p>
 
       </div>
 
       <div id="results"></div>
-
-      <div class="boek">
-
-        <p><b>Kies een vakgebied</b></p>
-
-        <p>
-          <a href="vakgebieden/rekenen-wiskunde/rekenen-wiskunde.html" class="button">Rekenen-Wiskunde</a>
-          <a href="vakgebieden/rekenen-wiskunde/taalonderwijs.html" class="button">Taalonderwijs</a>
-          <a href="vakgebieden/rekenen-wiskunde/onderwijskunde-pedagogiek.html" class="button">Onderwijskunde & Pedagogiek</a>
-          <a href="vakgebieden/rekenen-wiskunde/aardrijkskunde.html" class="button">Aardrijkskunde</a>
-          <a href="vakgebieden/rekenen-wiskunde/natuuronderwijs.html" class="button">Natuuronderwijs</a>
-          <a href="vakgebieden/rekenen-wiskunde/muziek.html" class="button">Muziek</a>
-          <a href="vakgebieden/rekenen-wiskunde/drama.html" class="button">Drama</a>
-        </p>
-
-      </div>
-
-      <script>
-      window.onload = function() {
-        document.getElementById('search').value = '';
-      }
-      </script>
 
     </div>
   </div>
@@ -95,7 +71,7 @@
 
 
 <nav class="footer" id="footer">
-  Copyright &copy; <span id="year"></span> | <a href="index.html">LiteraMuur</a>
+  Copyright &copy; <span id="year"></span> | <a href="../../index.html">LiteraMuur</a>
 
 </nav>
 

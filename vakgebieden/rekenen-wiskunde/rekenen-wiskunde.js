@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('#search').keyup(function(){
-    var searchValue = ($('#search').val()).trim();
+    var searchValue = '0';
     if(searchValue != '') {
-      $.getJSON('data.json', function(result){
+      $.getJSON('rekenen-wiskunde.json', function(result){
         var list = result;
         var options = {
           shouldSort: true,
@@ -12,10 +12,7 @@ $(document).ready(function(){
           maxPatternLength: 32,
           minMatchCharLength: 5,
           keys: [
-            "titel",
-            "schrijver",
-            "beschrijving",
-            "vakgebied"
+            "id"
           ]
         };
         var fuse = new Fuse(list, options);
@@ -24,7 +21,7 @@ $(document).ready(function(){
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('#results').append('<div class="res"><img class="coverfoto" src="images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
+            $('#results').append('<div class="res"><img class="coverfoto" src="../../images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="../../boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
           }
 
         }
