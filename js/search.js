@@ -30,7 +30,7 @@ $(document).ready(function(){
         }
         else {
           $('#results').empty();
-          $('#results').html('<center><font><h3>Geen resultaten gevonden</h3></font></center>')
+          $('#results').html('<p><center><font><h3>Geen resultaten gevonden</h3></font></center></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>')
         }
       })
     }

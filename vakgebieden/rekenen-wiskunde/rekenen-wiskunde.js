@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('#search').keyup(function(){
-    var searchValue = '0';
+    var searchValue = '0'.trim();
     if(searchValue != '') {
       $.getJSON('rekenen-wiskunde.json', function(result){
         var list = result;
@@ -12,7 +12,10 @@ $(document).ready(function(){
           maxPatternLength: 32,
           minMatchCharLength: 5,
           keys: [
-            "id"
+            "titel",
+            "schrijver",
+            "beschrijving",
+            "vakgebied"
           ]
         };
         var fuse = new Fuse(list, options);
@@ -21,7 +24,7 @@ $(document).ready(function(){
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('#results').append('<div class="res"><img class="coverfoto" src="../../images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="../../boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
+            $('#results').append('<div class="res"><img class="coverfoto" src="images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
           }
 
         }
