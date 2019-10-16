@@ -1,6 +1,5 @@
 $(document).ready(function(){
-  $('#search').keyup(function(){
-    var searchValue = '0'.trim();
+    var searchValue = '0';
     if(searchValue != '') {
       $.getJSON('rekenen-wiskunde.json', function(result){
         var list = result;
@@ -12,10 +11,7 @@ $(document).ready(function(){
           maxPatternLength: 32,
           minMatchCharLength: 5,
           keys: [
-            "titel",
-            "schrijver",
-            "beschrijving",
-            "vakgebied"
+            "id"
           ]
         };
         var fuse = new Fuse(list, options);
@@ -38,5 +34,4 @@ $(document).ready(function(){
       $('#results').empty();
       $('#results').html('')
     }
-  })
 })
