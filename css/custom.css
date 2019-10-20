@@ -192,6 +192,7 @@ i.fas, i.fab {
 	background-color: #fff;
 	color: #000;
 	border-top: 1px solid var(--border-color-softer);
+	z-index: 2;
 
 	/* ---- Footer Font ---- */
 	text-align: center;
@@ -302,6 +303,15 @@ a.button {
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.overlay {
+	position: relative;
+	margin-top: -3.5em;
+	background-color: #fff;
+	width: 100%;
+	height: 5em;
+	z-index: 1;
 }
 
 /* ---- 404 ---- */
