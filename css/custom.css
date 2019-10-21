@@ -224,6 +224,10 @@ i.fas, i.fab {
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+	/* ---- Voorkomt ronde hoeken op iOS ---- */
+	-webkit-appearance: none;
+	-webkit-border-radius:0;
+  border-radius:0;
 }
 .barsmall {
 	padding: 10px 20px;
@@ -238,6 +242,10 @@ i.fas, i.fab {
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+	/* ---- Voorkomt ronde hoeken op iOS ---- */
+	-webkit-appearance: none;
+	-webkit-border-radius:0;
+  border-radius:0;
 }
 .barbackground {
 	position: fixed;

@@ -175,11 +175,7 @@ textarea {
 
 button,
 input { /* 1 */
-  overflow: visible;
-  /* ---- Voorkomt ronde hoeken op iOS ---- */
-	-webkit-appearance: none;
-	-webkit-border-radius:0;
-  border-radius:0;
+  overflow: visible;	
 }
 
 /**
