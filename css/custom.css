@@ -139,6 +139,7 @@ i.fas, i.fab {
     display: none; }
 	.navbar img {
 		float: left;
+		position: relative;
 		height: 2.5rem;
 		margin-top: 1.25rem;
 		margin-left: 1.25rem;
