@@ -305,13 +305,33 @@ a.button {
   -webkit-box-sizing: border-box;
 }
 
-.overlay {
+.contactform {
+	margin-top: -5em;
+	border: solid 1px rgb(189, 189, 189);
+	padding: 0em 0em;
+	margin-bottom: 6em;
+	margin-left: 5%;
+	overflow:auto;
+	width: 90%;
+	height: auto;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.contactformoverlay {
 	position: relative;
 	margin-top: -3.5em;
 	background-color: #fff;
-	width: 100%;
-	height: 5em;
+	width: 120%;
+	height: 4em;
 	z-index: 1;
+}
+
+@media (min-width: 400px) {
+	.contactformoverlay {
+		width: 100%;
+	}
 }
 
 /* ---- 404 ---- */
