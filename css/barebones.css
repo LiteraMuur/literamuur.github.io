@@ -364,7 +364,6 @@ li {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
   padding: .2rem .5rem;
-  margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
   background: var(--code-background);
