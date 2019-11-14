@@ -34,13 +34,14 @@
    inkscape:window-height="1016"
    id="namedview45"
    showgrid="false"
-   inkscape:zoom="0.081482853"
-   inkscape:cx="719.5106"
-   inkscape:cy="1816.2317"
+   inkscape:zoom="1.8437465"
+   inkscape:cx="180.13235"
+   inkscape:cy="286.57164"
    inkscape:window-x="70"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_1" />
+   inkscape:current-layer="Capa_1"
+   showguides="false" />
 <g
    id="g12"
    style="fill:#212121;fill-opacity:1">
@@ -59,7 +60,7 @@
    id="path4"
    style="fill:#212121;fill-opacity:1" />
 			<path
-   d="m 438.142,256 71.924,-151.419 c 2.943,-6.196 2.506,-13.469 -1.159,-19.267 C 505.241,79.516 498.859,76 492,76 H 20 C 8.954,76 0,84.954 0,96 v 320 c 0,11.046 8.954,20 20,20 h 472 c 6.859,0 13.241,-3.516 16.906,-9.314 3.665,-5.798 4.103,-13.07 1.159,-19.267 z M 30,406 V 104 h 440.358 l -62.424,143.419 c -2.579,5.43 -2.579,11.732 0,17.162 L 470.358,406 Z"
+   d="m 438.142,256 71.924,-151.419 c 2.943,-6.196 2.506,-13.469 -1.159,-19.267 C 505.241,79.516 498.859,76 492,76 H 20 C 8.954,76 0,84.954 0,96 v 320 c 0,11.046 8.954,20 20,20 h 472 c 6.859,0 13.241,-3.516 16.906,-9.314 3.665,-5.798 4.103,-13.07 1.159,-19.267 z M 20,416 V 94 h 472.358 l -74.424,153.419 c -2.579,5.43 -2.579,11.732 0,17.162 L 492.358,416 Z"
    id="path6"
    style="fill:#212121;fill-opacity:1"
    inkscape:connector-curvature="0"
