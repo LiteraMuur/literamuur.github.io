@@ -228,8 +228,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
+  height: auto;
+  padding: 0 1em;
   color: var(--text-color-softer);
   text-align: center;
   font-size: 11px;
