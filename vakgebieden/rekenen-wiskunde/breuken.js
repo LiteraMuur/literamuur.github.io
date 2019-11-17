@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var searchValue = 'hele-getallen';
+    var searchValue = 'breuken';
     if(searchValue != '') {
       $.getJSON('/data.json', function(result){
         var list = result;
