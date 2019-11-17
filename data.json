@@ -1,26 +1,154 @@
 [
   {
     "id": "00001",
-    "titel": "Opbrengstgericht onderwijs ontwerpen",
-    "schrijver": "Anouke Bakx, Anje Ros & Peter Teune",
-    "beschrijving": "Super interessante beschrijving.",
-    "vakgebied": "onderwijskunde en pedagogiek",
+    "titel": "Geowijzer",
+    "schrijver": "Alice Peters & Frans Westerveen",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "aardrijkskunde",
     "tags": [""]
   },
   {
     "id": "00002",
-    "titel": "Praktische didactiek voor natuuronderwijs",
-    "schrijver": "Els de Vaan & Jos Marell",
-    "beschrijving": "Voorbeeld van een beschrijving.",
-    "vakgebied": "natuuronderwijs",
+    "titel": "Laat maar zien",
+    "schrijver": "Jos van Onna & Anky Jacobse",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "beeldende vorming",
     "tags": [""]
   },
   {
     "id": "00003",
+    "titel": "Bewegingsonderwijs in het speellokaal",
+    "schrijver": "T. van den Berg",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "bewegingsonderwijs",
+    "tags": [""]
+  },
+  {
+    "id": "00004",
     "titel": "Kijk op spel",
     "schrijver": "Holger de Nooij",
-    "beschrijving": "Nog een beschrijving.",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "drama",
+    "tags": [""]
+  },
+  {
+    "id": "00005",
+    "titel": "Geschiedenis geven: Praktische vakdidatiek voor het basisonderwijs",
+    "schrijver": "Meereke Bosua & Ron de Bruin",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "geschiedenis",
+    "tags": [""]
+  },
+  {
+    "id": "00006",
+    "titel": "Werkboek schriftvaardig",
+    "schrijver": "Astrid Scholten & Ben Hamerlin",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "VAKGEBIED",
+    "tags": [""]
+  },
+  {
+    "id": "00007",
+    "titel": "Schermgaande jeugd",
+    "schrijver": "Patti Valkenburg",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "ict",
+    "tags": [""]
+  },
+  {
+    "id": "00008",
+    "titel": "Geloof je het zelf?",
+    "schrijver": "Bas van den Berg, Ina ter Avest & Tamar Kopmels",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "levensbeschouwing",
+    "tags": [""]
+  },
+  {
+    "id": "00009",
+    "titel": "Eigen-wijs",
+    "schrijver": "Frans Haverkort, Lieuwe Noordam & Rinze van der Lei",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "muziek",
+    "tags": [""]
+  },
+  {
+    "id": "00010",
+    "titel": "Muziek meester!",
+    "schrijver": "Frans Haverkort",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "muziek",
+    "tags": [""]
+  },
+  {
+    "id": "00011",
+    "titel": "Natuuronderwijs inzichtelijk",
+    "schrijver": "Carla Kersbergen & Amito Haarhuis",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "natuuronderwijs",
+    "tags": [""]
+  },
+  {
+    "id": "00012",
+    "titel": "Praktische didactiek voor natuuronderwijs",
+    "schrijver": "Els de Vaan & Jos Marell",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "natuuronderwijs",
+    "tags": [""]
+  },
+  {
+    "id": "00013",
+    "titel": "Cyclisch onderwijs ontwerpen",
+    "schrijver": "Anouke Bakx",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "onderwijskunde en pedagogiek",
+    "tags": [""]
+  },
+  {
+    "id": "00014",
+    "titel": "Hoe ga je om met kinderen op school en met hun ouders?",
+    "schrijver": "Gerda Woltjer & Harry Janssens",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "onderwijskunde en pedagogiek",
+    "tags": [""]
+  },
+  {
+    "id": "00015",
+    "titel": "Kiezen voor het jonge kind",
+    "schrijver": "Helma Brouwers",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "onderwijskunde en pedagogiek",
+    "tags": [""]
+  },
+  {
+    "id": "00016",
+    "titel": "Ontwikkelingspsychologie",
+    "schrijver": "Robert S. Feldman",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "onderwijskunde en pedagogiek",
+    "tags": [""]
+  },
+  {
+    "id": "00017",
+    "titel": "Portaal",
+    "schrijver": "Harry Paus & Adri van den Brand",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "taalonderwijs",
+    "tags": [""]
+  },
+  {
+    "id": "00018",
+    "titel": "Rekendidactiek: Hele getallen",
+    "schrijver": "Petra van den Brom-Snijders, Jos van den Bergh, Ortwin Hutten & Marc van Zanten",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "rekenen-wiskunde",
+    "tags": [""]
+  },
+  {
+    "id": "00019",
+    "titel": "Rekendidactiek: Meten en meetkunde",
+    "schrijver": "Ortwin Hutten, Jos van den Bergh, Petra van den Brom-Snijders & Marc Zanten",
+    "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
+    "vakgebied": "rekenen-wiskunde",
     "tags": [""]
   }
 ]
