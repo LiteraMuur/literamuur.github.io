@@ -5,7 +5,8 @@
     "schrijver": "Alice Peters & Frans Westerveen",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "aardrijkskunde",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00002",
@@ -13,7 +14,8 @@
     "schrijver": "Jos van Onna & Anky Jacobse",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "beeldende vorming",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00003",
@@ -21,7 +23,8 @@
     "schrijver": "T. van den Berg",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "bewegingsonderwijs",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00004",
@@ -29,7 +32,8 @@
     "schrijver": "Holger de Nooij",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "drama",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00005",
@@ -37,7 +41,8 @@
     "schrijver": "Meereke Bosua & Ron de Bruin",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "geschiedenis",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00006",
@@ -45,7 +50,8 @@
     "schrijver": "Astrid Scholten & Ben Hamerlin",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "VAKGEBIED",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00007",
@@ -53,7 +59,8 @@
     "schrijver": "Patti Valkenburg",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "ict",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00008",
@@ -61,7 +68,8 @@
     "schrijver": "Bas van den Berg, Ina ter Avest & Tamar Kopmels",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "levensbeschouwing",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00009",
@@ -69,7 +77,8 @@
     "schrijver": "Frans Haverkort, Lieuwe Noordam & Rinze van der Lei",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "muziek",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00010",
@@ -77,7 +86,8 @@
     "schrijver": "Frans Haverkort",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "muziek",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00011",
@@ -85,7 +95,8 @@
     "schrijver": "Carla Kersbergen & Amito Haarhuis",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "natuuronderwijs",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00012",
@@ -93,7 +104,8 @@
     "schrijver": "Els de Vaan & Jos Marell",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "natuuronderwijs",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00013",
@@ -101,7 +113,8 @@
     "schrijver": "Anouke Bakx",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "onderwijskunde en pedagogiek",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00014",
@@ -109,7 +122,8 @@
     "schrijver": "Gerda Woltjer & Harry Janssens",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "onderwijskunde en pedagogiek",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00015",
@@ -117,7 +131,8 @@
     "schrijver": "Helma Brouwers",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "onderwijskunde en pedagogiek",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00016",
@@ -125,7 +140,8 @@
     "schrijver": "Robert S. Feldman",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "onderwijskunde en pedagogiek",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00017",
@@ -133,7 +149,8 @@
     "schrijver": "Harry Paus & Adri van den Brand",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "taalonderwijs",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   },
   {
     "id": "00018",
@@ -141,7 +158,8 @@
     "schrijver": "Petra van den Brom-Snijders, Jos van den Bergh, Ortwin Hutten & Marc van Zanten",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "rekenen-wiskunde",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": ["hele-getallen"]
   },
   {
     "id": "00019",
@@ -149,6 +167,7 @@
     "schrijver": "Ortwin Hutten, Jos van den Bergh, Petra van den Brom-Snijders & Marc Zanten",
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "rekenen-wiskunde",
-    "tags": [""]
+    "tags": [""],
+    "subcategorie": [""]
   }
 ]

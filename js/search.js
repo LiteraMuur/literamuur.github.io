@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('#search').keyup(function(){
     var searchValue = ($('#search').val()).trim();
     if(searchValue != '') {
-      $.getJSON('data.json', function(result){
+      $.getJSON('/data.json', function(result){
         var list = result;
         var options = {
           shouldSort: true,
@@ -15,7 +15,8 @@ $(document).ready(function(){
             "titel",
             "schrijver",
             "beschrijving",
-            "vakgebied"
+            "vakgebied",
+            "tags"
           ]
         };
         var fuse = new Fuse(list, options);

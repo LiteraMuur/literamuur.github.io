@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var searchValue = 'rekenen-wiskunde';
+    var searchValue = 'hele-getallen';
     if(searchValue != '') {
-      $.getJSON('hele-getallen.json', function(result){
+      $.getJSON('/data.json', function(result){
         var list = result;
         var options = {
           shouldSort: true,
@@ -11,7 +11,7 @@ $(document).ready(function(){
           maxPatternLength: 32,
           minMatchCharLength: 5,
           keys: [
-            "vakgebied"
+            "subcategorie"
           ]
         };
         var fuse = new Fuse(list, options);
