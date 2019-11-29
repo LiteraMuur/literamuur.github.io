@@ -280,8 +280,8 @@ i.fas, i.fab {
 @media (min-width: 700px) {
 	.res {
 		padding: 2em 2.625em;
-		margin-left: 2.5em;
-		margin-right: 2.5em;
+		margin-left: 2em;
+		margin-right: 2em;
 	}
 }
 .coverfoto {
@@ -326,8 +326,8 @@ a.button {
 @media (min-width: 700px) {
 	.boek {
 		padding: 2em 2.625em;
-		margin-left: 2.5em;
-		margin-right: 2.5em;
+		margin-left: 2em;
+		margin-right: 2em;
 	}
 }
 
