@@ -31,7 +31,7 @@ $(document).ready(function(){
         }
         else {
           $('#results').empty();
-          $('#results').html('<p><center><font><h3>Geen resultaten gevonden</h3></font></center></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>')
+          $('#results').html('<p><center><font><h2>Geen resultaten gevonden</h2></font></center></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>')
         }
       })
     }

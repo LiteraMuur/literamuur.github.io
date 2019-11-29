@@ -308,6 +308,7 @@ a.button {
 }
 
 /* ---- Bookpage ---- */
+/* The .boek div is used as cointainer for a great variety of content. E.g. book information or search bar, or subject buttons */
 .boek {
 	margin-top: -5.5em;
 	border: solid 1px rgb(189, 189, 189);
