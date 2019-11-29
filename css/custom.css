@@ -265,7 +265,7 @@ i.fas, i.fab {
 }
 .res {
 	border: solid 1px rgb(189, 189, 189);
-	padding: 0.7em 1.125em;
+	padding: 1em 1.125em;
 	margin-top: -5.5em;
 	margin-bottom: 6.5em;
 	margin-left: 1em;
@@ -311,7 +311,7 @@ a.button {
 .boek {
 	margin-top: -5.5em;
 	border: solid 1px rgb(189, 189, 189);
-	padding: 0.7em 1.125em;
+	padding: 1em 1.125em;
 	margin-bottom: 6.5em;
 	margin-left: 1em;
 	margin-right: 1em;
