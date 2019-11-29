@@ -303,7 +303,7 @@ a.button {
 .boek {
 	margin-top: -5em;
 	border: solid 1px rgb(189, 189, 189);
-	padding: 2em 2.625em;
+	padding: 0.7em 1.125em;
 	margin-bottom: 6em;
 	margin-left: 5%;
 	overflow:auto;
@@ -312,6 +312,12 @@ a.button {
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+	.boek {
+		padding: 2em 2.625em;
+	}
 }
 
 .contactform {
