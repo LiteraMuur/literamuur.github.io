@@ -312,9 +312,10 @@ a.button {
 	border: solid 1px rgb(189, 189, 189);
 	padding: 0.7em 1.125em;
 	margin-bottom: 6em;
-	margin-left: 5%;
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	width: auto;
 	overflow:auto;
-	width: 90%;
 	height: auto;
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -324,8 +325,6 @@ a.button {
 @media (min-width: 500px) {
 	.boek {
 		padding: 2em 2.625em;
-		margin-left: 2.5%;
-		width: 95%;
 	}
 }
 
