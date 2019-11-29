@@ -265,7 +265,7 @@ i.fas, i.fab {
 }
 .res {
 	border: solid 1px rgb(189, 189, 189);
-	padding: 2em 2.625em;
+	padding: 0.7em 1.125em;
 	margin-top: -5em;
 	margin-bottom: 6em;
 	margin-left: 5%;
@@ -275,6 +275,11 @@ i.fas, i.fab {
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+@media (min-width: 500px) {
+	.res {
+		padding: 2em 2.625em;
+	}
 }
 .coverfoto {
 	width: 8.45em;
