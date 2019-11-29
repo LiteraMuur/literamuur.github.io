@@ -159,7 +159,7 @@
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "rekenen-wiskunde",
     "tags": [""],
-    "subcategorie": ["hele-getallen"]
+    "subcategorie": ["rw-hele-getallen"]
   },
   {
     "id": "00019",
@@ -168,6 +168,6 @@
     "beschrijving": "Hier mist een beschrijving. Deze dient nog geschreven te worden.",
     "vakgebied": "rekenen-wiskunde",
     "tags": [""],
-    "subcategorie": ["meten-meetkunde"]
+    "subcategorie": ["rw-meten-meetkunde"]
   }
 ]
