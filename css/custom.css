@@ -308,12 +308,12 @@ a.button {
 
 /* ---- Bookpage ---- */
 .boek {
-	margin-top: -5em;
+	margin-top: -6.5em;
 	border: solid 1px rgb(189, 189, 189);
 	padding: 0.7em 1.125em;
 	margin-bottom: 6em;
-	margin-left: 2.5em;
-	margin-right: 2.5em;
+	margin-left: 1em;
+	margin-right: 1em;
 	width: auto;
 	overflow:auto;
 	height: auto;
