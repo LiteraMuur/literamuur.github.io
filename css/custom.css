@@ -266,21 +266,22 @@ i.fas, i.fab {
 .res {
 	border: solid 1px rgb(189, 189, 189);
 	padding: 0.7em 1.125em;
-	margin-top: -5em;
+	margin-top: -5.5em;
 	margin-bottom: 6em;
-	margin-left: 5%;
+	margin-left: 1em;
+	margin-right: 1em;
+	width: auto;
 	overflow:auto;
-	width: 90%;
 	height: auto;
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-@media (min-width: 500px) {
+@media (min-width: 700px) {
 	.res {
 		padding: 2em 2.625em;
-		margin-left: 2.5%;
-		width: 95%;
+		margin-left: 2.5em;
+		margin-right: 2.5em;
 	}
 }
 .coverfoto {
@@ -308,7 +309,7 @@ a.button {
 
 /* ---- Bookpage ---- */
 .boek {
-	margin-top: -5em;
+	margin-top: -5.5em;
 	border: solid 1px rgb(189, 189, 189);
 	padding: 0.7em 1.125em;
 	margin-bottom: 6em;
