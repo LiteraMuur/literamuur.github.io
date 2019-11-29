@@ -322,9 +322,11 @@ a.button {
   -webkit-box-sizing: border-box;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
 	.boek {
 		padding: 2em 2.625em;
+		margin-left: 2.5em;
+		margin-right: 2.5em;
 	}
 }
 
