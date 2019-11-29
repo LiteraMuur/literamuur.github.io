@@ -277,7 +277,7 @@ i.fas, i.fab {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 	.res {
 		padding: 2em 2.625em;
 		margin-left: 2em;
@@ -323,7 +323,7 @@ a.button {
   -webkit-box-sizing: border-box;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 	.boek {
 		padding: 2em 2.625em;
 		margin-left: 2em;
