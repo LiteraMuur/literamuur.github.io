@@ -11,11 +11,7 @@ $(document).ready(function(){
         maxPatternLength: 32,
         minMatchCharLength: 5,
         keys: [
-          "titel",
-          "schrijver",
-          "beschrijving",
-          "vakgebied",
-          "tags"
+          "subcategorie"
         ]
       };
       var fuse = new Fuse(list, options);
