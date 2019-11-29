@@ -26,7 +26,7 @@ $(document).ready(function(){
         }
         else {
           $('#results').empty();
-          $('#results').html('<center><font><h2>Geen resultaten gevonden</h2></font></center>')
+          $('#results').html('<center><font><h4>Geen resultaten gevonden</h4></font></center>')
         }
       })
     }
