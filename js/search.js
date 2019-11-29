@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('#search').keyup(function(){
-    var searchValue = ($('#search').val()).trim();
+    var searchValue = ('peda').trim();
     if(searchValue != '') {
       $.getJSON('/data.json', function(result){
         var list = result;
