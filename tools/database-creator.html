@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Database Creator</h2>
+
+<a href="/tools">terug</a>
+
+<p> - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+
+  <form id="databaseform">
+      <p><lable name="text"><b>ID</b></lable>
+      <br><input id="id" type="text" />
+      <p><lable name="text"><b>Titel</b></lable>
+      <br><input id="titel" type="text" />
+      <p><lable name="text"><b>Schrijver</b></lable>
+      <br><input id="schrijver" type="text" />
+      <p><lable name="text"><b>Beschrijving</b></lable>
+      <br><input id="beschrijving" type="text" />
+      <p><lable name="text"><b>Vakgebied</b></lable>
+      <br><input id="vakgebied" type="text" />
+      <p><lable name="text"><b>Tags</b> (scheiden, door, komma)</lable>
+      <br><input id="tags" type="text" />
+      <p><lable name="text"><b>Subcategorie</b> (scheiden, door, komma)</lable>
+      <br><input id="subcategorie" type="text" />
+
+      <p><input type="submit" value="Indienen" />
+  </form>
+
+  <script type="text/javascript">
+    (function($){
+    $('#databaseform').submit(function(e){
+        var id = $(this).find('#id').val();
+        var titel = $(this).find('#titel').val();
+        var schrijver = $(this).find('#schrijver').val();
+        var beschrijving = $(this).find('#beschrijving').val();
+        var vakgebied = $(this).find('#vakgebied').val();
+        var tags = $(this).find('#tags').val();
+        var subcategorie = $(this).find('#subcategorie').val();
+        $('div.results').empty();
+        $('div.results').append('&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;"id": "' + id + '",<br>&nbsp;&nbsp;&nbsp;&nbsp;"titel": "' + titel + '",<br>&nbsp;&nbsp;&nbsp;&nbsp;"schrijver": "' + schrijver + '",<br>&nbsp;&nbsp;&nbsp;&nbsp;"beschrijving": "' + beschrijving + '",<br>&nbsp;&nbsp;&nbsp;&nbsp;"vakgebied": "' + vakgebied + '",<br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": ["' + tags + '"],<br>&nbsp;&nbsp;&nbsp;&nbsp;"subcategorie": ["' + subcategorie + '"]<br>&nbsp;&nbsp;},');
+        e.preventDefault();
+    });
+  })(jQuery);
+  </script>
+
+<p>- - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+
+<div class="results"></div>
+
+</body>
+</html>
