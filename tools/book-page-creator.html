@@ -18,7 +18,7 @@
       <p><lable name="text"><b>Beschrijving</b></lable>
       <br><input id="beschrijving" type="text" />
 
-      <p>&nbsp<b><u>APA notatie</u></b><br><i>De APA notatie is standaard ingesteld voor boeken. Indien je een ander medium wilt toevoegen aan de LiteraMuur, laat dan onderstaande velden leeg en voer de APA handmatig in.</i><p>
+      <p><b><u>APA notatie</u></b><br><i>De APA notatie is standaard ingesteld voor boeken. Indien je een ander medium wilt toevoegen aan de LiteraMuur, laat dan onderstaande velden leeg en voer de APA handmatig in.</i><p>
 
       <p><lable name="text"><b>Titel</b></lable>
       <br><input id="apatitel" type="text" />
@@ -43,11 +43,11 @@
         var titel = $(this).find('#titel').val();
         var schrijver = $(this).find('#schrijver').val();
         var beschrijving = $(this).find('#beschrijving').val();
-        var tags = $(this).find('#apatitel').val();
-        var tags = $(this).find('#apaschrijver').val();
-        var tags = $(this).find('#apajaartal').val();
-        var tags = $(this).find('#apauitgever').val();
-        var tags = $(this).find('#apastadland').val();
+        var apatitel = $(this).find('#apatitel').val();
+        var apaschrijver = $(this).find('#apaschrijver').val();
+        var apajaartal = $(this).find('#apajaartal').val();
+        var apauitgever = $(this).find('#apauitgever').val();
+        var apastadland = $(this).find('#apastadland').val();
         $('div.results').empty();
         $('div.results').append('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="boek"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&nbsp;Cover&nbsp;--&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;class="coverfoto"&nbsp;src="/images/covers/' + id + '.jpg"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&nbsp;Titel&nbsp;en&nbsp;schrijver&nbsp;--&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="informatie"&gt;&lt;b&gt;' + titel + '&lt;/b&gt;&nbsp;|&nbsp;&lt;font&nbsp;color&nbsp;="#5c5c5c"&gt;' + schrijver + '&lt;/font&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&nbsp;Beschrijving&nbsp;--&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;' + beschrijving + '&lt;/p&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="boek"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&nbsp;APA&nbsp;notatie&nbsp;--&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APA&nbsp;notatie&nbsp;|&nbsp;&lt;font&nbsp;color&nbsp;="#5c5c5c"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + apaschrijver + '.&nbsp;(' + apajaartal + ').&nbsp;&lt;i&gt;' + apatitel + '&lt;/i&gt;.&nbsp;' + apastadland + ':&nbsp;' + apauitgever + '.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/font&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;');
         e.preventDefault();
