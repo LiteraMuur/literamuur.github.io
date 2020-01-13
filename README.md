@@ -1,4 +1,4 @@
-De [LiteraMuur](https://www.literamuur.nl) is een website met literatuur voor en door Pabo studenten en (beginnend) leerkrachten.
+De [LiteraMuur](https://literamuur.nl) is een website met literatuur voor en door Pabo studenten en (beginnend) leerkrachten.
 
 ## Licentie
 
