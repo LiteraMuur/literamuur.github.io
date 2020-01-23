@@ -343,6 +343,7 @@ a.button {
 	margin-top: 0.2em;
 	color: white;
 	font-weight: bold;
+	visibility: visible !important;
 }
 
 .bubblebackground {
@@ -351,7 +352,7 @@ a.button {
 	height: 2em;
 	margin-left: 0.5em;
 	border-radius: 3em;
-	background: #888888;
+	background: rgb(189, 189, 189);
 }
 
 /* ---- Bookpage ---- */
