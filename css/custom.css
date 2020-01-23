@@ -307,6 +307,59 @@ a.button {
     color: initial;
 }
 
+/* ---- Groepbubble ---- */
+.\31 -2 {
+	float: right;
+	width: 2.5em;
+	height: 2em;
+	background-color: #83a746;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.\31 -3 {
+	float: right;
+	width: 2.5em;
+	height: 2em;
+	background-color: #83a746;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.\33 -5 {
+	float: right;
+	width: 2.5em;
+	height: 2em;
+	background-color: #d34342;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.\36 -8 {
+	float: right;
+	width: 2.5em;
+	height: 2em;
+	background-color: #394b90;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.\31 -8 {
+	float: right;
+	width: 2.5em;
+	height: 2em;
+	background-color: #5cd5ee;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.bubbletext {
+	margin: 0 auto;
+	margin-top: 0.2em;
+	color: white;
+	font-weight: bold;
+}
+
 /* ---- Bookpage ---- */
 /* The .boek div is used as cointainer for a great variety of content. E.g. book information or search bar, or subject buttons */
 .boek {

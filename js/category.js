@@ -20,7 +20,7 @@ $(document).ready(function(){
       if(searchResult.length > 0) {
         $('#results').empty();
         for(i = 0; i < searchResult.length; i++) {
-          $('#results').append('<div class="res"><img class="coverfoto" src="/images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="/boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
+          $('#results').append('<div class="res"><div class="'+searchResult[i].groep+'">'+searchResult[i].groep+'</div><img class="coverfoto" src="/images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="/boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
         }
 
       }
