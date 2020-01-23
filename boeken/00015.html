@@ -23,6 +23,12 @@
   <link rel="stylesheet" href="/css/barebones.css">
   <link rel="stylesheet" href="/css/custom.css">
 
+  <!-- Scripts for Fuse.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="/js/fuse.min.js"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="/js/id.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon-16.png">
@@ -44,24 +50,25 @@
     </div>
   </nav>
 
+  <!-- Category (hide input by style, this input only provides the id to id.js. Change the value of the input below to set category)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <input id="id" class="barsmall" type="text" value="00015" style="position: fixed !important; opacity: 0 !important; width: 0px !important; height: 0px !important;">
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="grid-container halves">
     <div>
 
       <div class="boek">
-
-        <!-- Cover -->
-        <img class="coverfoto" src="/images/covers/00015.jpg">
-
-        <!-- Titel en schrijver -->
-        <div class="informatie"><b>Kiezen voor het jonge kind</b> | <font color ="#5c5c5c">Helma Brouwers</font>
-
-          <!-- Beschrijving -->
-          <p>Hier mist nog een beschrijving.</p>
-
-        </div>
+      <a href="javascript:history.back()"><< Ga terug</a>
       </div>
+
+      <!-- Book appears here
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div id="results"></div>
+
+      <!-- APA goes here
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
       <div class="boek">
 
@@ -73,9 +80,6 @@
         </font>
 
       </div>
-
-      <div class="blank"></div>
-
 
     </div>
   </div>
