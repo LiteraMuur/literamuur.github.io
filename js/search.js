@@ -16,7 +16,6 @@ $(document).ready(function(){
             "schrijver",
             "beschrijving",
             "vakgebied",
-            "groep",
             "tags"
           ]
         };
@@ -26,7 +25,7 @@ $(document).ready(function(){
         if(searchResult.length > 0) {
           $('#results').empty();
           for(i = 0; i < searchResult.length; i++) {
-            $('#results').append('<div class="res"><div class="'+searchResult[i].groep+'"><div class="bubbletext">'+searchResult[i].groep+'</div></div><img class="coverfoto" src="/images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="/boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
+            $('#results').append('<div class="res"> <div class="ob" style="visibility: '+searchResult[i].ob+';"><div class="bubbletext">1-2</div></div><div class="mb" style="visibility: '+searchResult[i].mb+';"><div class="bubbletext">3-5</div></div><div class="bb" style="visibility: '+searchResult[i].bb+';"><div class="bubbletext">6-8</div></div><img class="coverfoto" src="/images/covers/'+searchResult[i].id+'.jpg"><div class="informatie"><b>'+searchResult[i].titel+'</b> | <font color ="#5c5c5c">'+searchResult[i].schrijver+'</font><p>'+searchResult[i].beschrijving+'</p><a href="/boeken/'+searchResult[i].id+'.html">>> Bekijk</a></div></div>')
           }
 
         }
