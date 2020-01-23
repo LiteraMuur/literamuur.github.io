@@ -345,6 +345,15 @@ a.button {
 	font-weight: bold;
 }
 
+.bubblebackground {
+	float: right;
+	width: 2.5em;
+	height: 2em;
+	margin-left: 0.5em;
+	border-radius: 3em;
+	background: #888888;
+}
+
 /* ---- Bookpage ---- */
 /* The .boek div is used as cointainer for a great variety of content. E.g. book information or search bar, or subject buttons */
 .boek {
