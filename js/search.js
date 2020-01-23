@@ -6,7 +6,7 @@ $(document).ready(function(){
         var list = result;
         var options = {
           shouldSort: true,
-          threshold: 0.5,
+          threshold: 0.8,
           location: 0,
           distance: 100,
           maxPatternLength: 32,
