@@ -308,7 +308,7 @@ a.button {
 }
 
 /* ---- Groepbubble ---- */
-.\31 -2 {
+.ob {
 	float: right;
 	width: 2.5em;
 	height: 2em;
@@ -317,16 +317,7 @@ a.button {
 	text-align: center;
 }
 
-.\31 -3 {
-	float: right;
-	width: 2.5em;
-	height: 2em;
-	background-color: #83a746;
-	border-radius: 3em;
-	text-align: center;
-}
-
-.\33 -5 {
+.mb {
 	float: right;
 	width: 2.5em;
 	height: 2em;
@@ -335,20 +326,11 @@ a.button {
 	text-align: center;
 }
 
-.\36 -8 {
+.bb {
 	float: right;
 	width: 2.5em;
 	height: 2em;
 	background-color: #394b90;
-	border-radius: 3em;
-	text-align: center;
-}
-
-.\31 -8 {
-	float: right;
-	width: 2.5em;
-	height: 2em;
-	background-color: #5cd5ee;
 	border-radius: 3em;
 	text-align: center;
 }
