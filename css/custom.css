@@ -312,7 +312,7 @@ a.button {
 	float: right;
 	width: 2.5em;
 	height: 2em;
-	margin-left: 2em;
+	margin-left: 0.5em;
 	background-color: #83a746;
 	border-radius: 3em;
 	text-align: center;
@@ -322,7 +322,7 @@ a.button {
 	float: right;
 	width: 2.5em;
 	height: 2em;
-	margin-left: 2em;
+	margin-left: 0.5em;
 	background-color: #d34342;
 	border-radius: 3em;
 	text-align: center;
@@ -332,7 +332,7 @@ a.button {
 	float: right;
 	width: 2.5em;
 	height: 2em;
-	margin-left: 2em;
+	margin-left: 0.5em;
 	background-color: #394b90;
 	border-radius: 3em;
 	text-align: center;
