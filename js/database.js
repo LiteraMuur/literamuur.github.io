@@ -1,7 +1,7 @@
 $(function () {
 
 $.getJSON('/data.json', function(data) {
-    var table = $("#Table").empty();
+    var table = $("#Table");
     $.each(data, function (i, boek) {
         $("<tr>", {
             html: [
