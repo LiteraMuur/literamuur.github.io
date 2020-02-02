@@ -14,7 +14,7 @@ $(document).ready(function(){
           keys: [
             "titel",
             "schrijver",
-            "beschrijving",
+            "jaar",
             "vakgebied",
             "tags"
           ]
