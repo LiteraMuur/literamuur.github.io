@@ -8,6 +8,7 @@ $.getJSON('/data.json', function(data) {
                 $("<td>", { html: boek.id }),
                 $("<td>", { html: boek.titel }),
                 $("<td>", { html: boek.schrijver }),
+                $("<td>", { html: boek.jaar }),
                 $("<td>", { html: boek.vakgebied}),
                 $("<td>", { html: boek.ob }),
                 $("<td>", { html: boek.mb }),
