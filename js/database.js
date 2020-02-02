@@ -10,7 +10,7 @@ $.getJSON('/data.json', function(data) {
                 $("<td>", { html: boek.schrijver }),
                 $("<td>", { html: boek.ob }),
                 $("<td>", { html: boek.mb }),
-                $("<td>", { html: boek.bb }),
+                $("<td>", { html: boek.bb })
             ],
             appendTo: table
         });
