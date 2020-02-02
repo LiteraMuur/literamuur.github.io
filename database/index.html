@@ -2,28 +2,12 @@
 <html>
 <head>
     <title>LiteraMuur | Literatuur voor de Pabo</title>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/database.js"></script>
 </head>
 <body>
   <table id="Table" width="90%" border="1" bordercolor="#ccc">
 </body>
 
-<script>
-  $(document).ready( function() {
-$.getJSON('/data.json',
-  function(data) {
-    $("#Table").html(" FirstLastMiddle");
-    for (var i = 0; i < data.length; i++)
-        {
-            var tr="";
-              var td1=""+data[i]["titel"]+"";
-              var td2=""+data[i]["boek"]+"";
-              var td3=""+data[i]["schrijver"]+"";
-              var td4=""+data[i]["ob"]+"";
-
-            $("#Table").append(tr+td1+td2+td3+td4);
-
-        }
-  });
-});
-</script>
 </html>
