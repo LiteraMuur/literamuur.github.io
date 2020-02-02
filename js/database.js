@@ -6,6 +6,7 @@ $.getJSON('/data.json', function(data) {
         $("<tr>", {
             html: [
                 $("<td>", { html: boek.id }),
+                $("<td>", { html: boek.vakgebied}),
                 $("<td>", { html: boek.titel }),
                 $("<td>", { html: boek.schrijver }),
                 $("<td>", { html: boek.ob }),
