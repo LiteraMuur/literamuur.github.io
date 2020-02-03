@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('#search').keyup(function(){
     var searchValue = ($('#search').val()).trim();
-    if(searchValue > 2) {
+    if(searchValue.length > 2) {
       $.getJSON('/data.json', function(result){
         var list = result;
         var options = {
