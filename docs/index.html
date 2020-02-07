@@ -105,15 +105,20 @@
           </ul>
           De database bestaat uit een JSON bestand. In de JSON database staat elk boek er als volgt in:
             <pre><code>{
- "id": "00001",
- "titel": "Opbrengstgericht onderwijs ontwerpen",
- "schrijver": "Anouke Bakx, Anje Ros & Peter Teune",
- "beschrijving": "Super interessante beschrijving.",
- "vakgebied": "pedagogiek",
- "tags": ["woorden, die, relevant, kunnen, zijn, gescheiden, door, een, komma"]
- "subcategorie": ["op-ik-boodschap"]
+  "id": "00001",
+  "titel": "Geowijzer",
+  "schrijver": "Alice Peters & Frans Westerveen",
+  "beschrijving": "Geowijzer is een boek dat men kan gebruiken om de kennisbasis van aardrijkskunde machtig te worden, maar ook om te leren hoe je de didactiek hiervan kunt gebruiken. Het boek is afgestemd op pabo-studenten en leerkrachten in het basisonderwijs.",
+  "vakgebied": "aardrijkskunde",
+  "jaar": "2015",
+  "url": "",
+  "ob": "visible",
+  "mb": "visible",
+  "bb": "visible",
+  "tags": ["plaatsbepaling", "planeet", "temperatuurfactoren", "neerslag", "luchtbewegingen", "plantengroei", "klimaten", "klimaatverandering", "landschap", "zuiderzeewerken", "deltawerken", "kustverdediging", "waterproblemen", "vulkanisme", "bergen", "bevolkingsaantallen", "leeftijdsopbouw", "kaartlezen"],
+  "subcategorie": [""]
 }</code></pre>
-          Het jaartal en de APA omschrijving zijn niet opgenomen in de JSON database. Deze informatie staat alleen op de boekpagina <i>(/boeken/id.html)</i>.
+          De url is alleen relevant wanneer het een online bron betreft. De APA omschrijving is niet opgenomen in de JSON database. Deze informatie staat alleen op de boekpagina <i>(/boeken/id.html)</i>.
 
           <a name="literatuur-categorieen"></a>
         </p>
@@ -122,18 +127,9 @@
           <u>Categorieën</u>
 
           <br>De LiteraMuur is per vak ingedeeld in meerdere categorieën. Deze categorieën vindt de gebruiker van de LiteraMuur via het knoppen-systeem op de site. Wanneer een gebruiker informatie over <i>voorbereidend kaartlezen</i> zoekt, doorloopt de gebruiker de volgende stappen:</br>
-          <br>Aardrijkskunde > Didactiek > Onderbouw > Voorbereidend kaartlezen</br>
+          <br>Aardrijkskunde > Didactiek > Voorbereidend kaartlezen</br>
 
-          <p>De (sub)categorieën worden in de database onder "subcategorie" geplaatst. De subcategorie bestaat uit een vak, bouw en deelonderwerp. Voorbereidend kaartlezen valt dus onder het vak aardrijkskunde ("ak"), onderbouw ("ob") en het deelonderwerp voorbereidend kaartlezen ("voorbereidend-kaartlezen"). Aan elkaar wordt dat "ak-ob-voorbereidend-kaartlezen".</p>
-
-          <p>De afkortingen van de bouwen zijn als volgt:
-          <br>
-            <ul>
-              <li>Onderbouw = <u>ob</u></li>
-              <li>Middenbouw = <u>mb</u></li>
-              <li>Bovenbouw = <u>bb</u></li>
-            </ul>
-          </br>
+          <p>De (sub)categorieën worden in de database onder "subcategorie" geplaatst. De subcategorie bestaat uit een vak en deelonderwerp. Voorbereidend kaartlezen valt dus onder het vak aardrijkskunde ("ak") en het deelonderwerp voorbereidend kaartlezen ("voorbereidend-kaartlezen"). Aan elkaar wordt dat "ak-voorbereidend-kaartlezen".</p>
 
           <br>De afkortingen van de vakken zijn als volgt:
           <br>
@@ -157,6 +153,28 @@
             </ul>
           </br>
           </p>
+
+          <br>Een volledig overzicht van de structuur per vak en de naam van de deelonderwerpen is verderop in de documentatie te vinden.</br>
+
+          <p>Om overzicht te houden in de restulaten verschijnen er bij een resultaat drie bubbels. Deze bubbels geven aan voor welke groep(en) een bron geschikt is. De bubbels zijn ingedeeld in drie categorieën:
+            <br>
+              <ul>
+                <li>Groep 1-2</li>
+                <li>Groep 3-5</li>
+                <li>Groep 6-8</li>
+              </ul>
+            </br>
+          </p>
+
+          <p>In de database zijn de verschillende bouwen opgenomen. De afkortingen van de bouwen zijn als volgt:
+          <br>
+            <ul>
+              <li>Onderbouw = <u>ob</u></li>
+              <li>Middenbouw = <u>mb</u></li>
+              <li>Bovenbouw = <u>bb</u></li>
+            </ul>
+          </br>
+        </p>
 
           <a name="literatuur-indienen"></a>
         </p>
