@@ -249,7 +249,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": [""],
-    "subcategorie": ["rw-hele-getallen"]
+    "subcategorie": ["rw-hele-getallen-vak", "rw-hele-getallen-di"]
   },
   {
     "id": "00019",
@@ -263,7 +263,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": [""],
-    "subcategorie": ["rw-meten-meetkunde"]
+    "subcategorie": ["rw-meten-vak", "rw-meten-di", "rw-meetkunde-vak", "rw-meetkunde-di"]
   },
   {
     "id": "00020",
