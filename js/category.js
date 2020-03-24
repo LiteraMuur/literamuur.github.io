@@ -26,7 +26,7 @@ $(document).ready(function(){
       }
       else {
         $('#results').empty();
-        $('#results').html('<p><center><font><h4>Geen resultaten gevonden</h4></font></center></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>')
+        $('#results').html('<p><center><font><h5>Aan dit onderdeel is nog geen literatuur toegewezen.<br>Heb je een suggestie voor literatuur? Dien deze dan in via de LiteraTip pagina.</h5></font></center></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>')
       }
     })
   }
