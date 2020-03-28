@@ -95,7 +95,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["adhd", "adolescentie", "cognitieve ontwikkeling", "dopamine", "seks", "gender", "humor", "sociale media", "advergames", "affordances", "agressief gedrag", "agressie", "games", "mediageweld", "angst", "entertainment", "nieuws", "sekse", "reclame", "arousal", "baby’s", "commercial", "tablet", "televisie", "behaviorisme", "binge", "plasticiteit", "robots", "centratie", "dissonantie", "copycat", "creativiteit", "criminaliteit", "crimineel gedrag", "films", "cultivation theory", "cyberbullying", "cyberpesten", "seksualisering", "apps", "educatieve apps", "educatieve media", "edutainment", "egocentrisme", "piaget", "emotie", "empathie", "mediagebruik", "escapisme", "expressie", "fantasie", "formeel-operationele fase", "gamen", "intelligentie", "gezinsrelaties", "relatie", "oog-handcoördinatie", "ruimtelijk inzicht", "werkgeheugen", "archetypen", "genre", "gameverslaving", "grooming", "hedonisme", "helikopterouders", "helicopterouders", "hippocampus", "horror", "identificatie", "personages", "online", "in-game advertising", "internetverslaving", "verslaving", "lezen", "media-effecten", "mediaopvoeding", "multitasking", "meekijken", "merken", "motivatie", "narcisme", "obesitas", "opvoedstijl", "pesten", "offline", "porno", "pornografie", "pornoficatie", "preoperationele fase", "privacy", "product placement", "puberbrein", "puberteit", "realiteit", "seksuele identiteit", "selfies", "sensatie", "smartphone", "computer", "mobiele telefoon", "sexting", "social-media", "social media", "vriendengroep", "vriendengroepen", "zelfbewustzijn"],
-    "subcategorie": [""]
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
   },
   {
     "id": "00008",
@@ -333,7 +333,7 @@
     "mb": "hidden",
     "bb": "visible",
     "tags": ["internet", "media", "mediagebruik", "digitale geletterdheid", "digitale vaardigheden", "monitor", "jongeren", "mobiele telefoon", "laptop", "desktopcomputer", "tv", "televisie", "vr", "vr-bril", "smartwatch", "e-reader", "smartphone", "notebook", "tablet", "spelcomputer", "console", "gamen", "games", "social media", "sociale media", "whatsapp", "facebook", "snapchat", "instagram", "communicatie", "apps", "youtube", "netflix", "spotify", "boek", "lezen", "kranten", "informatie zoeken", "ict-basisvaardigheden", "computational thinking", "mediawijsheid", "informatievaardigheden", "zoekstrategieën", "onderzoek"],
-    "subcategorie": ["ict-communiceren", "ict-basisvaardigheden-bekwaamheden"]
+    "subcategorie": ["ict-communiceren", "ict-basisvaardigheden-bekwaamheden", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00025",
@@ -347,7 +347,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["21st century skills", "21e eeuwse vaardigheden", "acadin", "animatie", "audioboeken", "auteursrechten", "authentieke ict-middelen", "beauchamp", "beeldverhaal", "besturingssysteem", "blog", "bloom", "brainstorm", "cognitieve multimediatheorie", "cognitivisme", "commons", "wikimedia", "communities", "compenseren", "remediëren", "differentiëren", "dispenseren", "simulaties", "computersimulaties", "computervirus", "constructionisme", "constructivisme", "constructivistisch onderwijs", "creative commons", "digibord", "digiles", "digitaal leermateriaal", "digitaal pesten", "cyberpesten", "digitaal portfolio", "digitaal prentenboek", "digitaal woordenboek", "digitale encyclopedieën", "digitale hulpmiddelen", "digitale identiteit", "digitale microscoop", "digitale tafel", "digitale taxonomie van bloom", "taxonomie van bloom", "digitale veiligheid", "digitale woordspin", "domeinnaam", "doepad", "dyscalculie", "dyslexie", "earthquest", "edublogs", "educatieve software", "ereader", "excel", "facebook", "film", "flashmobs", "flickr", "forum", "formeel leren", "fotobewerking", "fotobewerkingsprogramma", "fotografie", "fotograferen", "futurelab", "game", "gamemaker", "gamestudio", "gebruiksnaam", "google", "google earth", "google scholar", "gps", "grafische interface", "grooming", "hoogbegaafd", "hoorspel", "hypermedia", "ict-coördinator", "ict-geletterdheid", "ict-infrastructuur", "ict-vaardigheden", "informatievaardigheid", "informeel leren", "interactie", "internet", "kaartvaardigheden", "kennisconstructie", "kennisnet", "kennisoverdracht", "zoekmachines", "kinderzoekmachines", "laptop", "leerlingvolgsysteem", "leerstijlen", "leraar24", "levend prentenboek", "lipdub", "media", "mediawijsheid", "mediapedagogiek", "meervoudige intelligenties", "mindmap", "minipad", "mobiel internet", "multimedia", "multitasken", "netwerk", "ontdekken", "ontwikkelen", "open access", "parnassys", "passend onderwijs", "peer-to-peer", "piaget", "phishing", "podcast", "powerpoint", "publiek domein", "reclame", "robot", "schooltv", "smartphone", "sms", "games", "spelcomputer", "console", "taxonomie van bloom", "tpack", "tpack-model", "verslaving", "vygotski", "webquest", "websitemaker", "webwandeling", "wikikids", "wikipedia", "wikiwijs", "zoekstrategieën"],
-    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-infrastructuur", "ict-informatievaardigheden"]
+    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-infrastructuur", "ict-informatievaardigheden", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-presenteren", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00026",
@@ -361,7 +361,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["flipping the classroom", "docentgestuurd", "differentiatie", "leerlinggestuurd", "video", "kennisoverdracht", "kennisconstructie", "autonomie", "tpack", "ontwerpen", "vakinhoud", "content", "technologie", "ict", "didactiek", "lesmateriaal", "youtube", "flipped mastery", "online", "games", "creativiteit", "experimenteren", "videolessen", "podcast", "verdieping", "introductie", "zelfstandig", "verwerking", "blog", "bloggen", "resultaat", "projecten", "uitleg"],
-    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur"]
+    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur", "ict-presenteren", "ict-zelfstandig-leren"]
   },
   {
     "id": "00027",
@@ -375,7 +375,7 @@
     "mb": "hidden",
     "bb": "hidden",
     "tags": ["medialisering", "samenleving", "mediawijsheid", "competentieniveaus", "pabo", "informatie", "mediaproducenten", "mediaboodschappen", "media", "informatievaardigheden", "politiek", "levensbeschouwing", "ideologie", "vooroordelen", "cultuur", "normen", "waarden", "apparaten", "software", "technologie", "internet", "e-mail", "elo", "elektronische leeromgeving", "digitale leermiddelen", "games", "crossmedia", "apps", "tablet", "tekst", "afbeeldingen", "video", "website", "presentatie", "quiz", "sociale media", "sociale netwerken"],
-    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur"]
+    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-presenteren", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00028",
@@ -389,7 +389,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["samenleving", "medialisering", "mediawijsheid", "competenties", "mediagebruik", "tv", "televisie", "media", "reclame", "commercie", "journaal", "nieuws", "websites", "software", "apparaten", "games", "crossmedia", "apps", "applicaties", "platformen", "zoekmachine", "beoordelen", "content", "maatschappij", "film", "sociale netwerken", "social media", "contact", "sociale media", "account", "privacy", "inlog", "wachtwoord", "online", "internet"],
-    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-basisvaardigheden-bekwaamheden", "ict-informatievaardigheden"]
+    "subcategorie": ["ict-communiceren", "ict-creatief-vormgeven", "ict-basisvaardigheden-bekwaamheden", "ict-informatievaardigheden", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00029",
@@ -436,7 +436,7 @@
   {
     "id": "00032",
     "titel": "Handleiding Creatief Computergebruik",
-    "schrijver": "Karen Brennan, Christan Balch, Michelle Chung &amp; Cobie van de Ven",
+    "schrijver": "Karen Brennan, Christan Balch, Michelle Chung & Cobie van de Ven",
     "beschrijving": "Deze handleding is een verzameling van ideeën, strategieën en activiteiten om kennis te maken met creatief computergebruik met behulp van de Scratch programmeertaal.",
     "vakgebied": "ict",
     "jaar": "2015",
@@ -464,7 +464,7 @@
   {
     "id": "00034",
     "titel": "Computational Thinking in het basisonderwijs",
-    "schrijver": "Charoula Angeli, Andrew Fluck, Margaret J. Cox, Jason Zagami, Joke Voogt, Mary Webb &amp; Joyce Malyn-Smith",
+    "schrijver": "Charoula Angeli, Andrew Fluck, Margaret J. Cox, Jason Zagami, Joke Voogt, Mary Webb & Joyce Malyn-Smith",
     "beschrijving": "Overzicht van de doorgaande lijn van computational thinking in het basisonderwijs zoals geformuleerd door Angeli e.a. in 2016. De vaardigheden abstractie, generalisatie, decompositie, algoritmisch denken en debuggen worden per bouw uitgelicht.",
     "vakgebied": "ict",
     "jaar": "2016",
@@ -492,7 +492,7 @@
   {
     "id": "00036",
     "titel": "The Art of Tinkering",
-    "schrijver": "Karen Wilkinson &amp; Mike Petrich",
+    "schrijver": "Karen Wilkinson & Mike Petrich",
     "beschrijving": "he Art Of Tinkering is een verkenning van het werk van meer dan 150 makers die hun artistieke accenten in de wereld van technologie aanbrengen. Hoewel er enkele korte handleidingen zijn om je te helpen met een aantal van de gebieden die worden belicht in het boek, zoals schilderen met licht, papieren circuits en bouwen met draad, richt het grootste deel van het boek zich op het werk van de geselecteerde makers, waaronder poppenmakers, circuitbenders, fotografen en nog veel meer.",
     "vakgebied": "ict",
     "jaar": "2014",
@@ -515,7 +515,7 @@
     "mb": "hidden",
     "bb": "hidden",
     "tags": ["ict", "digitale boeken", "computer", "taalstimulering", "taal", "digitale prentenboeken", "prentenboek", "tekeningen", "illustraties", "woordenschat", "woorden", "taalontwikkeling", "tekstbegrip", "vve", "voorlezen", "taalproductie", "boeken", "lezen", "leesvaardigheid", "digitaal prentenboek", "letterboek", "rekenboek", "telboek", "woordenboek", "versjes"],
-    "subcategorie": ["ict-creatief-vormgeven"]
+    "subcategorie": ["ict-creatief-vormgeven", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-zelfstandig-leren"]
   },
   {
     "id": "00038",
@@ -543,7 +543,7 @@
     "mb": "hidden",
     "bb": "visible",
     "tags": ["zoekstrategieën", "internet", "zoeken", "leermiddelen", "ict", "mediawijsheid", "bron", "bronnen", "online", "website", "informatie", "informatievaardigheden", "lezen", "begrijpend lezen", "tekstbegrip", "wikipedia", "wikikids", "google", "youtube", "zoekmachine"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00040",
@@ -557,7 +557,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["digibord", "digitaal schoolbord", "kennisoverdracht", "technologie", "whiteboard", "printen", "opslaan", "delen", "computer", "digitaal leermateriaal", "interactief", "presentaties", "ict", "kennis", "beauchamp", "substitutiefase", "lerende gebruiker", "beginnende gebruiker", "gevorderde gebruiker", "samenwerkende gebruiker", "didactiek", "software", "internet", "video", "ict-vaardigheden", "presenteren", "audio", "televisie", "powerpoint", "mindmap", "woordweb", "tpack-model", "tpack", "inhoud", "technologie", "voordelen", "meerwaarde", "multimedia", "schermen", "visuele informatie", "auditieve informatie", "cognitieve multimediatheorie", "geluid", "beeld", "applicaties", "samenwerkend leren", "samenwerken", "informatie", "motivatie", "leereffect", "verrijking", "vakinhoud"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-presenteren"]
   },
   {
     "id": "00041",
@@ -571,11 +571,11 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["leermiddelen", "papier", "digitaal", "media", "digitale leermiddelen", "ict", "voortgezet onderwijs", "methoden", "didactiek", "methode", "games", "software", "website", "powerpoint", "foto", "video", "simulatie", "oefensoftware", "oefenen", "toetsen"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00042",
-    "titel": "Information Problem-Solving: The Big Six Skills Approach To Library &amp; Information Skills Instruction",
+    "titel": "Information Problem-Solving: The Big Six Skills Approach To Library & Information Skills Instruction",
     "schrijver": "Michael B. Eisenberg & Robert E. Berkowitz",
     "beschrijving": "Big6 is een stappenplan om informatievaardigheden te trainen. Dit boek belicht de Big6-vaardigheden uit vanuit verschillende perspectieven.",
     "vakgebied": "ict",
@@ -585,7 +585,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["big6", "zoekstrategieën", "zoeken", "strategieën", "ict", "media", "zoekvaardigheden", "mediavaardigheden", "informatievaardigheden", "informatie zoeken", "informatie", "internet", "big6-model", "mediawijsheidcompetentie", "leertaak", "vraag", "bibliotheek", "zoekmachine", "verwerken", "evalueren"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-presenteren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00043",
@@ -599,7 +599,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["ict", "mediawijsheid", "ict", "media", "informatie", "informatievaardigheden", "internet", "computer", "internetvaardigheid", "brein", "kennis", "zoekstrategie", "zoeken", "zoekstrategieën", "big6-model", "big6"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00044",
@@ -613,7 +613,7 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["kennisnet", "digitaal", "digitale leermiddelen", "leermiddelen", "digitale toetsen", "digitaal toetsen", "toetsen", "toets", "ict", "lesmateriaal", "leermiddelen", "toetsing"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   },
   {
     "id": "00045",
@@ -627,6 +627,174 @@
     "mb": "visible",
     "bb": "visible",
     "tags": ["digitaal", "ict", "leerlingvolgsysteem", "leerlingvolgsystemen", "lvs", "toetsen", "feedback", "dlvs", "digitaal leerlingvolgsysteem", "toetsresultaten", "toetsing", "leerresultaten", "cito", "parnassys", "cito lovs", "lovs", "esis", "dotcomschool", "ontwikkeling", "feed-up", "feedforward", "doelen"],
-    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur"]
+    "subcategorie": ["ict-basisvaardigheden-bekwaamheden", "ict-infrastructuur", "ict-oefenen-digitale-leermiddelen-toetsen", "ict-zoeken-verwerken-bewaren"]
+  },
+  {
+    "id": "00046",
+    "titel": "App Noot Muis: Peuters en kleuters op internet",
+    "schrijver": "Remco Pijpers",
+    "beschrijving": "Onderzoek naar hoe peuters en kleuters surfen op het internet en wat ouders zeggen over het mediagebruik van hun kinderen (3-6 jaar). Ook worden er aanbevelingen gedaan voor makers, opvoeders en onderwijsprofessionals.",
+    "vakgebied": "ict",
+    "jaar": "2011",
+    "url": "https://www.kennisnet.nl/mijnkindonline/files/App_Noot_Muis.pdf",
+    "ob": "visible",
+    "mb": "hidden",
+    "bb": "hidden",
+    "tags": ["mediaontwikkeling", "app", "noot", "muis", "mediagebruik", "mediawijsheid", "media", "ict", "tv", "televisieprogramma", "educatieve televisieprogramma’s", "computer", "jonge kinderen", "tablet", "smartphone", "internet", "speelgoed", "gamen", "spelcomputer", "spelen", "boeken", "lezen", "youtube"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00047",
+    "titel": "Iene Miene Media: Monitor 2018 Mediagebruik door kinderen van 0 t/m 6 jaar",
+    "schrijver": "Mediawijzer.net",
+    "beschrijving": "Een breed onderzoek naar het mediagebruik van het jonge kind. Het onderzoek gaat in op beschikbare media, beginnen met media, tijdsbesteding, activiteiten, apps, pijnpunten, ouderlijk mediagebruik en kennis en vaardigheden van ouders.",
+    "vakgebied": "ict",
+    "jaar": "2018",
+    "url": "https://www.mediawijzer.net/wp-content/uploads/sites/6/2018/04/Onderzoek-IeneMieneMedia-2018.pdf",
+    "ob": "visible",
+    "mb": "hidden",
+    "bb": "hidden",
+    "tags": ["media", "mediagebruik", "onderzoek", "smartphone", "mobiele telefoon", "laptop", "computer", "televisie", "tablet", "boeken", "netflix", "dvd", "film", "video", "youtube", "spelletjes", "educatieve spelletjes", "apps", "mediaopvoeding", "mediapedagogiek", "voorlezen", "speelgoed", "ereader", "ouders", "thuis", "mediavaardigheden"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00048",
+    "titel": "Mediaontwikkeling: 0-6 jaar",
+    "schrijver": "Mediasmarties",
+    "beschrijving": "Dit schema toont de mediaontwikkeling van kinderen tussen 0 en 6 jaar. Er wordt gekeken naar figuren en karakters waarin kinderen in geïnteresseerd zijn op een bepaalde leeftijd. Ook de concentratie en begrip worden in kaart gebracht, evenals de voorkeuren, plezier, humor en mening van kinderen.",
+    "vakgebied": "ict",
+    "jaar": "2012",
+    "url": "https://web.archive.org/web/20160612045621im_/http://www.mediasmarties.nl/media/uploads/Mediaontwikkeling_0-6_jaar.jpg",
+    "ob": "visible",
+    "mb": "hidden",
+    "bb": "hidden",
+    "tags": ["mediaontwikkeling", "baby", "peuter", "kleuter", "kleuters", "peuters", "baby’s", "muziek", "figuren", "karakters", "televisieprogramma’s", "televisie", "tv", "tekstbegrip", "smartphone", "tablet", "spelletjes", "spel", "computer", "website", "kleuren", "concentratie", "beelden", "beeld", "geluid", "fantasie", "realiteit", "thuis", "ouders", "school", "liedjes"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00049",
+    "titel": "Mediaontwikkeling: 6-12 jaar",
+    "schrijver": "Mediasmarties",
+    "beschrijving": "Dit schema toont de mediaontwikkeling van kinderen tussen 6 en 12 jaar. Er wordt gekeken naar figuren en karakters waarin kinderen in geïnteresseerd zijn op een bepaalde leeftijd. Ook de concentratie en begrip worden in kaart gebracht, evenals de voorkeuren, plezier, humor en mening van kinderen.",
+    "vakgebied": "ict",
+    "jaar": "2012",
+    "url": "https://web.archive.org/web/20160612045621im_/http://www.mediasmarties.nl/media/uploads/Mediaontwikkeling_0-6_jaar.jpg",
+    "ob": "hidden",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["mediaontwikkeling", "helden", "figuren", "karakters", "concentratie", "begrip", "voorkeuren", "plezier", "humor", "mening", "rolmodel", "woorden", "melodieën", "dans", "games", "reclame", "geweld", "films", "entertainment", "volwassene", "volwassen", "tekst", "gamen", "ironie", "sarcasme", "identificatie", "realiteit"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00050",
+    "titel": "Mediaopvoeding.nl",
+    "schrijver": "Opvoedinformatie Nederland",
+    "beschrijving": "Mediaopvoeding.nl is dé vraagbaak voor ouders en professionals voor vragen over media en mediagebruik van kinderen.",
+    "vakgebied": "ict",
+    "jaar": "2020",
+    "url": "https://www.mediaopvoeding.nl/",
+    "ob": "visible",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["mediaopvoeding", "media", "gamen", "geld", "geweld", "gezondheid", "gokken", "pesten", "privacy", "seks", "sociale media", "techniek", "verslaving", "online", "veiligheid", "mediapedagogiek", "mediawijsheid"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00051",
+    "titel": "Mediaopvoeding.nl",
+    "schrijver": "Opvoedinformatie Nederland",
+    "beschrijving": "Mediasmarties biedt een overzicht van kindermedia afgestemd op de leeftijd van je kind. Je kunt hier informatie vinden over de inhoud en geschiktheid van mediaproducten zoals: televisieprogramma's, (bioscoop)films, boeken, online games, video games, apps en websites voor kinderen tussen de 1,5 tot en met 11 jaar.",
+    "vakgebied": "ict",
+    "jaar": "2017",
+    "url": "http://www.mediasmarties.nl/",
+    "ob": "visible",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["televisie", "televisieprogramma", "films", "boeken", "games", "online", "online games", "apps", "websites", "internet", "mediaopvoeding", "mediapedagogiek", "leeftijd", "tv", "dvd", "mediawijsheid", "ontwikkeling", "mediaontwikkeling"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00052",
+    "titel": "Mediawijsheid.nl",
+    "schrijver": "Netwerk Mediawijsheid",
+    "beschrijving": "Mediawijsheid.nl wijst je de weg binnen het onderwerp mediawijsheid. Op deze website krijg je informatie over veilig en slim gebruik van (digitale) media. Per thema laten we zien bij welke organisaties je terecht kunt voor meer informatie en/of hulp.",
+    "vakgebied": "ict",
+    "jaar": "2019",
+    "url": "https://www.mediawijsheid.nl/",
+    "ob": "visible",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["mediawijsheid", "media", "ict", "digitale media", "website", "gamen", "games", "speelgoed", "digitaal speelgoed", "mediaopvoeding", "grooming", "mediadiamant", "apps", "auteursrechten", "informatievaardigheden", "bibliotheek", "mediamasters", "lesmateriaal", "sexting", "sociale media", "social media", "online", "nepnieuws", "youtube", "cyberpesten", "privacy", "veiligheid", "internet", "phishing", "programmeren", "beeldgeletterdheid", "reclame", "maker movement", "algoritme", "internet of things", "kunstmatige intelligentie", "artificial intelligence", "ai", "deep fake", "toekomst", "mediawijsheid competentiemodel", "competentie", "mediacompetentie"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00053",
+    "titel": "Mediawijzer.net",
+    "schrijver": "Netwerk Mediawijsheid",
+    "beschrijving": "Op deze website vinden netwerkpartners, mediawijsheid professionals en geïnteresseerden in het beleid en praktijk van mediawijsheid meer informatie, blogartikelen, evenementen en tips om als organisatie aan te haken op mediawijsheid.",
+    "vakgebied": "ict",
+    "jaar": "2020",
+    "url": "https://www.mediawijzer.net/",
+    "ob": "visible",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["mediawijzer", "mediawijsheid", "media", "ict", "digitale vaardigheid", "mediagebruik", "apps", "mediaopvoeding", "mediadiamant", "netwerk", "internet"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00054",
+    "titel": "Samen de online wereld verkennen",
+    "schrijver": "Niels Baas",
+    "beschrijving": "Deze reisgids voor de online wereld beantwoordt de meest gestelde vragen van ouders en leerkrachten omtrent mediaopvoeding, en biedt praktische tips en handige oefeningen voor op school en thuis. Zodat leerkrachten, ouders en kinderen goed voorbereid, vol vertrouwen, en vooral samen de online wereld kunnen verkennen.",
+    "vakgebied": "ict",
+    "jaar": "2015",
+    "url": "",
+    "ob": "visible",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["mediaopvoeding", "mediagebruik", "jongeren", "online", "digitaal", "ict", "internet", "veiligheid", "ouders", "cyberpesten", "sexting", "risico’s", "grooming", "risico", "seksueel contact"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00055",
+    "titel": "Speel Digiwijs!: Samen aan de slag met media voor jonge kinderen",
+    "schrijver": "Peter Nikken, Denise Bontje, Olga Abell & Su’en Kwok",
+    "beschrijving": "Speel Digiwijs! helpt ouders en professionals een mening te vormen over mediaopvoeding. In dit boekstaan de belangrijkste feiten en inzichten over media en jonge kinderen, praktische tips om hiermee om te gaan en leerzame opdrachten om met kinderen uit te voeren.",
+    "vakgebied": "ict",
+    "jaar": "2013",
+    "url": "",
+    "ob": "visible",
+    "mb": "hidden",
+    "bb": "hidden",
+    "tags": ["massamedia", "sociale media", "audiovisuele vorming", "kinderen", "pedagogiek", "kleuters", "media-educatie", "peuters", "baby’s", "didactische werkvormen", "ict", "internet", "mediawijsheid", "mediaopvoeding"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek"]
+  },
+  {
+    "id": "00056",
+    "titel": "Taalontwikkeling van jonge kinderen: Het effect van digitale boeken en interactief leermateriaal op leesvaardigheid van peuters en kleuters",
+    "schrijver": "Kennisnet",
+    "beschrijving": "Digitale boeken en computerprogramma’s kunnen de taalontwikkeling van jonge kinderen ondersteunen. Dit artikel gaat in op het onderzoek naar de effecten van digitale boeken op ontwikkeling van de woordenschat en tekstbegrip.",
+    "vakgebied": "ict",
+    "jaar": "2009",
+    "url": "https://onderzoek.kennisnet.nl/app/uploads/2016/12/BeginnendeGeletterdheid_definitieve_versie_01.pdf",
+    "ob": "visible",
+    "mb": "hidden",
+    "bb": "hidden",
+    "tags": ["taalontwikkeling", "taal", "ict", "peuters", "kleuters", "leesvaardigheid", "digitale boeken", "boeken", "lezen", "jonge kinderen", "schrijven", "leesaanbod", "woordenschat", "multimedia", "geletterdheid", "leesontwikkeling", "tekstbegrip", "digitale prentenboeken", "voorlezen", "interactief", "verhaal", "woorden", "illustraties", "interactief voorlezen", "kinderboeken", "bibliotheek", "alfabetische kennis", "achterstand", "educatieve software"],
+    "subcategorie": ["ict-mediawijsheid-mediaopvoeding-mediapedagogiek", "ict-zelfstandig-leren"]
+  },
+  {
+    "id": "00057",
+    "titel": "Trapmodel Informatievaardigheden (Big 6)",
+    "schrijver": "Lilian de Ruiter",
+    "beschrijving": "Artikel over het belang en beheersing van informatievaardigheden. Het big 6-model voor het aanleren van informatie- en zoekvaardigheid wordt trapsgewijs uitgelegd.",
+    "vakgebied": "ict",
+    "jaar": "2015",
+    "url": "https://drive.google.com/file/d/0BwCb15riORVYY25neXk2b0tDTVk/view",
+    "ob": "hidden",
+    "mb": "visible",
+    "bb": "visible",
+    "tags": ["trapmodel", "informatie", "media", "internet", "informatievaardigheden", "kennis", "informatiebronnen", "zoeken", "zoekstrategie", "zoekstrategieën", "informatiebron", "evalueren", "verwerken", "big6", "big6-model", "ict", "digitale geletterdheid"],
+    "subcategorie": ["ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren"]
   }
 ]
