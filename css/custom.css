@@ -380,6 +380,12 @@ a.button {
 	}
 }
 
+@media (min-width: 900px) {
+	.beschrijving {
+		width: 70%
+	}
+}
+
 .contactform {
 	margin-top: -5em;
 	border: solid 1px rgb(189, 189, 189);
