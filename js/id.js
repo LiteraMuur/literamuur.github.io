@@ -5,7 +5,7 @@ $(document).ready(function(){
   var maandnaam = (maanden[d.getMonth()]);
   var datum = d.getDate();
   var jaar = d.getFullYear();
-  document.getElementById("date").innerHTML = datum+' '+maandnaam+' '+jaar;
+  getElementById("date").innerHTML = datum+' '+maandnaam+' '+jaar;
 
   // Place book information on page
   var searchValue = ($('#id').val()).trim();
