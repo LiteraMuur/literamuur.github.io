@@ -1,13 +1,13 @@
 $(document).ready(function(){
-  // Insert date
+  //Insert APA date
   var d = new Date();
   var maanden = new Array('januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december');
   var maandnaam = (maanden[d.getMonth()]);
   var datum = d.getDate();
   var jaar = d.getFullYear();
-  $(document).getElementById("date").innerHTML = datum+' '+maandnaam+' '+jaar;
+  $("date").text(datum+' '+maandnaam+' '+jaar);
 
-  // Place book information on page
+  //Insert book information
   var searchValue = ($('#id').val()).trim();
   if(searchValue != '') {
     $.getJSON('/data.json', function(result){
