@@ -7,39 +7,39 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
-   sodipodi:docname="vormgeven.svg"
-   xml:space="preserve"
-   style="enable-background:new 0 0 512 512;"
-   viewBox="0 0 512 512"
-   y="0px"
-   x="0px"
+   version="1.1"
    id="Capa_1"
-   version="1.1"><metadata
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="voortgezet-technisch-lezen.svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"><metadata
    id="metadata85"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs83" /><sodipodi:namedview
-   inkscape:document-rotation="0"
-   inkscape:current-layer="Capa_1"
-   inkscape:window-maximized="1"
-   inkscape:window-y="23"
-   inkscape:window-x="1440"
-   inkscape:cy="245.13799"
-   inkscape:cx="178.32778"
-   inkscape:zoom="0.68701813"
-   showgrid="false"
-   id="namedview81"
-   inkscape:window-height="1035"
-   inkscape:window-width="1600"
-   inkscape:pageshadow="2"
-   inkscape:pageopacity="0"
-   guidetolerance="10"
-   gridtolerance="10"
-   objecttolerance="10"
-   borderopacity="1"
+   pagecolor="#ffffff"
    bordercolor="#666666"
-   pagecolor="#ffffff" />
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1035"
+   id="namedview81"
+   showgrid="false"
+   inkscape:zoom="1.1558133"
+   inkscape:cx="160.91032"
+   inkscape:cy="262.88645"
+   inkscape:window-x="1440"
+   inkscape:window-y="23"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Capa_1"
+   inkscape:document-rotation="0" />
 
 
 
@@ -93,14 +93,16 @@
 <g
    id="g78">
 </g>
-<text
-   id="text2154"
-   y="379.04733"
-   x="-0.90072525"
+<g
    style="font-size:355.115px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:8.87788"
-   xml:space="preserve"><tspan
+   id="text2154"
+   aria-label="AVI"><path
+     id="path4720"
      style="stroke-width:8.87788"
-     y="379.04733"
-     x="-0.90072525"
-     id="tspan2152"
-     sodipodi:role="line">AVI</tspan></text></svg>
+     d="M 194.0574,379.04733 Q 188.02045,363.06716 182.69372,347.79721 177.367,332.17215 171.68516,316.19198 H 60.179053 L 37.806809,379.04733 H 1.9401947 q 14.2045993,-39.06265 26.6336243,-72.08834 12.429025,-33.38081 24.147819,-63.21047 12.07391,-29.82966 23.792705,-56.8184 11.718794,-27.34385 24.502937,-53.97748 h 31.60523 q 12.78414,26.63363 24.50294,53.97748 11.71879,26.98874 23.43758,56.8184 12.07391,29.82966 24.50294,63.21047 12.42902,33.02569 26.63362,72.08834 z m -32.31546,-91.26455 q -11.36368,-30.895 -22.72736,-59.65932 -11.00856,-29.11943 -23.08247,-55.75305 -12.42903,26.63362 -23.792708,55.75305 -11.008565,28.76432 -22.017129,59.65932 z" /><path
+     id="path4722"
+     style="stroke-width:8.87788"
+     d="m 441.43384,132.95264 q -13.49437,39.06265 -25.92339,72.44346 -12.07391,33.0257 -23.79271,62.85536 -11.71879,29.82965 -23.43759,57.17351 -11.36368,26.98874 -23.43759,53.62236 H 312.5271 Q 300.45319,352.41371 288.7344,325.42497 277.37072,298.08111 265.29681,268.25146 253.57801,238.4218 241.14899,205.3961 228.71996,172.01529 215.58071,132.95264 h 37.9973 q 19.17621,56.10817 37.64219,107.95496 18.46598,51.84679 37.9973,97.30151 19.53133,-45.0996 37.99731,-96.94639 18.46598,-52.20191 37.28707,-108.31008 z" /><path
+     id="path4724"
+     style="stroke-width:8.87788"
+     d="m 475.61365,132.95264 h 34.44616 v 246.09469 h -34.44616 z" /></g></svg>
