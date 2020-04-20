@@ -299,6 +299,16 @@ i.fas, i.fab {
 	margin-left: 10em;
 }
 }
+.meme {
+	width: 300px;
+	border: solid 1px rgb(189, 189, 189);
+	padding: 0.2em;
+}
+@media (min-width: 600px) {
+	.meme {
+		width: 100%;
+	}
+}
 a.button {
     -moz-appearance: button;
     appearance: button;
