@@ -300,11 +300,11 @@ i.fas, i.fab {
 }
 }
 .meme {
-	width: 100%;
+	width: 90%;
 	border: solid 1px rgb(189, 189, 189);
 	padding: 0.2em;
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
 	.meme {
 		width: 300px;
 	}
