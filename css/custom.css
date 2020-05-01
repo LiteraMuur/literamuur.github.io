@@ -306,7 +306,7 @@ i.fas, i.fab {
 }
 @media (min-width: 400px) {
 	.meme {
-		width: 300px;
+		width: 25em;
 	}
 }
 a.button {
