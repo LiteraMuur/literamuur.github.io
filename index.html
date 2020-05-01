@@ -29,6 +29,22 @@
   <script src="/js/jquery-3.4.1.min.js"></script>
   <script src="/js/search.js"></script>
 
+  <!-- Meme script
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript">
+  // place your images in this array
+  var random_images_array = ['1.png', '2.png', '3.png', '4.png'];
+
+  function getRandomImage(imgAr, path) {
+      path = path || '/images/meme/'; // default path here
+      var num = Math.floor( Math.random() * imgAr.length );
+      var img = imgAr[ num ];
+      var imgStr = '<img class="meme" src="' + path + img + '" alt = "">';
+      document.write(imgStr); document.close();
+  }
+
+  </script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon-16.png">
@@ -102,7 +118,7 @@
         <p><b>LiteraMeme</b></p>
 
         <p>
-          <img class="meme" src="/images/meme.png">
+          <script type="text/javascript">getRandomImage(random_images_array, '/images/meme/')</script>
         </p>
 
       </div>
