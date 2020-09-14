@@ -23,6 +23,12 @@
   <link rel="stylesheet" href="/css/barebones.css">
   <link rel="stylesheet" href="/css/custom.css">
 
+  <!-- Scripts for Fuse.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="/js/fuse.min.js"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="/js/id.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon-16.png">
@@ -44,23 +50,34 @@
     </div>
   </nav>
 
+  <!-- Category (hide input by style, this input only provides the id to id.js. Change the value of the input below to set category)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <input id="id" class="barsmall" type="text" value="00062" style="position: fixed !important; opacity: 0 !important; width: 0px !important; height: 0px !important;">
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="grid-container halves">
     <div>
 
       <div class="boek">
-      <a href="javascript:history.back()"><< Ga terug</a>
+        <a href="javascript:history.back()"><< Ga terug</a>
       </div>
+
+      <!-- Book appears here
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div id="results"></div>
+
+      <!-- APA goes here
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
       <div class="boek">
 
-        <p><b>Kies een categorie</b></p>
+        <!-- Titel en schrijver -->
+        APA notatie | <font color ="#5c5c5c">
 
-        <p>
-          <!-- <a href="ta-tos-dyslexie-vak.html" class="button" style="background: url(/images/icons/vakinhoud.svg) no-repeat 0.75em center; background-size: 2.2em; padding-left: 3.7em;">Kennis</a> -->
-          <a href="ta-tos-dyslexie-di.html" class="button" style="background: url(/images/icons/didactiek.svg) no-repeat 0.75em center; background-size: 2.2em; padding-left: 3.7em;">Didactiek</a>
-        </p>
+          Aarnoutse, C., Beernink, J., & Verhagen, W. (2018). <i>Toetspakket voor groep 1, 2 en 3</i> (5de editie). Amersfoort, Nederland: CPS Onderwijsontwikkeling en advies.
+
+        </font>
 
       </div>
 
