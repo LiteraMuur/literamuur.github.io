@@ -165,7 +165,7 @@ i.fas, i.fab {
 	border-bottom: 1px solid var(--border-color-softer); }
 	@media (min-width: 395px) {
 		.navbar-spacer {
-			margin-top: 5rem;
+			height: 5rem;
 		}
 	}
   .navbar-spacer {
