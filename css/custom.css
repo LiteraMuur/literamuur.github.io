@@ -158,11 +158,16 @@ i.fas, i.fab {
   .navbar-spacer {
     display: block;
     width: 100%;
-    height: 5rem;
+    height: 10rem;
     background: var(--background-color);
     z-index: 99;
     border-top: 1px solid var(--border-color-softer);
-    border-bottom: 1px solid var(--border-color-softer); }
+	border-bottom: 1px solid var(--border-color-softer); }
+	@media (min-width: 395px) {
+		.navbar-spacer {
+			margin-top: 5rem;
+		}
+	}
   .navbar-spacer {
     display: none; }
 	.navbar img {

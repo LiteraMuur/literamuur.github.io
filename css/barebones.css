@@ -173,13 +173,19 @@ html {
   scroll-behavior: smooth;
 }
 body {
-	margin-top: 10em;
+	margin-top: 15em;
   font-size: 1.6rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--text-color-normal);
   background-color: var(--background-color);;
+}
+
+@media (min-width: 395px) {
+	body {
+		margin-top: 10em;
+	}
 }
 
 
