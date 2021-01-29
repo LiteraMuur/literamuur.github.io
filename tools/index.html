@@ -28,8 +28,6 @@
       <br><input id="mb" type="text" maxlength="7" size="7" />
       <p><lable name="text"><b>BB</b> (visible/hidden)</lable>
       <br><input id="bb" type="text" maxlength="7" size="7" />
-      <p><lable name="text"><b>Tags</b> ("tag", "tag")</lable>
-      <br><textarea id="tags"></textarea>
       <p><lable name="text"><b>Subcategorie</b> ("ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren")</lable>
       <br><textarea id="subcategorie"></textarea>
       <p><lable name="text"><b>Afbeelding</b> (URL naar jpg of png van book cover)</lable>
@@ -60,7 +58,7 @@
         var cover = $(this).find('#cover').val();
         var apa = $(this).find('#apa').val();
         $('div.results').empty();
-        $('div.results').append('&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;id&quot;: &quot;' + id + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;titel&quot;: &quot;' + titel + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;schrijver&quot;: &quot;' + schrijver + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;beschrijving&quot;: &quot;' + beschrijving + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;vakgebied&quot;: &quot;' + vakgebied + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;jaar&quot;: &quot;' + jaartal + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;url&quot;: &quot;' + url + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;ob&quot;: &quot;' + ob + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;mb&quot;: &quot;' + mb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;bb&quot;: &quot;' + bb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;subcategorie&quot;: [' + subcategorie + ']<br>&nbsp;&nbsp;}<br><br>Afbeelding:&nbsp;' + cover + '<br>APA notering:<br>' + apa);
+        $('div.results').append('&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;id&quot;: &quot;' + id + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;titel&quot;: &quot;' + titel + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;schrijver&quot;: &quot;' + schrijver + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;beschrijving&quot;: &quot;' + beschrijving + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;vakgebied&quot;: &quot;' + vakgebied + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;jaar&quot;: &quot;' + jaartal + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;url&quot;: &quot;' + url + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;ob&quot;: &quot;' + ob + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;mb&quot;: &quot;' + mb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;bb&quot;: &quot;' + bb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;subcategorie&quot;: [' + subcategorie + ']<br>&nbsp;&nbsp;}<br><br><u>Afbeelding</u><br>' + cover + '<br><br><u>APA notering</u><br>' + apa);
         e.preventDefault();
     });
   })(jQuery);
