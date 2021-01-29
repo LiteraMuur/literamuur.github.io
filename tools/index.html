@@ -32,6 +32,10 @@
       <br><textarea id="tags"></textarea>
       <p><lable name="text"><b>Subcategorie</b> ("ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren")</lable>
       <br><textarea id="subcategorie"></textarea>
+      <p><lable name="text"><b>Afbeelding</b> (URL naar jpg of png van book cover)</lable>
+      <br><input id="cover" type="text" />
+      <p><lable name="text"><b>APA notering</b></lable>
+      <br><textarea id="apa"></textarea>
       
 
       <p><input style="background-color:#99ff99;" type="submit" value="Indienen" /> <input style="background-color:#ffcccc;" type="reset" value="Herstarten">
@@ -52,10 +56,11 @@
         var ob = $(this).find('#ob').val();
         var mb = $(this).find('#mb').val();
         var bb = $(this).find('#bb').val();
-        var tags = $(this).find('#tags').val();
         var subcategorie = $(this).find('#subcategorie').val();
+        var cover = $(this).find('#cover').val();
+        var apa = $(this).find('#apa').val();
         $('div.results').empty();
-        $('div.results').append('&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;id&quot;: &quot;' + id + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;titel&quot;: &quot;' + titel + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;schrijver&quot;: &quot;' + schrijver + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;beschrijving&quot;: &quot;' + beschrijving + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;vakgebied&quot;: &quot;' + vakgebied + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;jaar&quot;: &quot;' + jaartal + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;url&quot;: &quot;' + url + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;ob&quot;: &quot;' + ob + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;mb&quot;: &quot;' + mb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;bb&quot;: &quot;' + bb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;tags&quot;: [' + tags + '],<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;subcategorie&quot;: [' + subcategorie + ']<br>&nbsp;&nbsp;}');
+        $('div.results').append('&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;id&quot;: &quot;' + id + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;titel&quot;: &quot;' + titel + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;schrijver&quot;: &quot;' + schrijver + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;beschrijving&quot;: &quot;' + beschrijving + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;vakgebied&quot;: &quot;' + vakgebied + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;jaar&quot;: &quot;' + jaartal + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;url&quot;: &quot;' + url + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;ob&quot;: &quot;' + ob + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;mb&quot;: &quot;' + mb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;bb&quot;: &quot;' + bb + '&quot;,<br>&nbsp;&nbsp;&nbsp;&nbsp;&quot;subcategorie&quot;: [' + subcategorie + ']<br>&nbsp;&nbsp;}<br><br>Afbeelding:&nbsp;' + cover + '<br>APA notering:<br>' + apa);
         e.preventDefault();
     });
   })(jQuery);
