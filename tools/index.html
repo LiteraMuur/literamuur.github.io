@@ -3,31 +3,97 @@
 <body>
 <title>LiteraMuur | Database Tool</title>
 
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset] {
+  background-color: #c95d5f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #c34a4c;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
 <h2>Database Tool</h2>
 
-<p> - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-
+  <div class="container">
   <form id="databaseform">
       <p><lable name="text"><b>ID</b> (kan leeggelaten worden)</lable>
       <br><input id="id" type="text" maxlength="5" size="5" />
+      
       <p><lable name="text"><b>Titel</b></lable>
       <br><input id="titel" type="text" size="50" />
+      
       <p><lable name="text"><b>Schrijver</b> (Mieke van Groenestijn, Ceciel Borghouts & Christien Janssen)</lable>
       <br><input id="schrijver" type="text" size="50" />
+      
       <p><lable name="text"><b>Beschrijving</b></lable>
       <br><textarea id="beschrijving"></textarea>
+      
       <p><lable name="text"><b>Vakgebied</b> (kleine letters)</lable>
       <br><input id="vakgebied" type="text" size="20" />
+      
       <p><lable name="text"><b>Jaartal</b></lable>
       <br><input id="jaartal" type="text" maxlength="4" size="4" />
+      
       <p><lable name="text"><b>URL</b> (indien online bron)</lable>
       <br><input id="url" type="text" />
-      <p><lable name="text"><b>OB</b> (visible/hidden)</lable>
-      <br><input id="ob" type="text" maxlength="7" size="7" />
-      <p><lable name="text"><b>MB</b> (visible/hidden)</lable>
-      <br><input id="mb" type="text" maxlength="7" size="7" />
-      <p><lable name="text"><b>BB</b> (visible/hidden)</lable>
-      <br><input id="bb" type="text" maxlength="7" size="7" />
+      
+            
+      <p><lable name="text"><b>OB</b> (groep 1 en 2)</lable>
+      <br><input type="radio" id="obvisible" name="ob" value="visible">
+      <label for="obvisible">Ja</label><br>
+      <input type="radio" id="obhidden" name="ob" value="hidden">
+      <label for="obhidden">Nee</label><br>
+      
+      <p><lable name="text"><b>MB</b> (groep 3, 4 en 5)</lable>
+      <br><input type="radio" id="mbvisible" name="mb" value="visible">
+      <label for="mbvisible">Ja</label><br>
+      <input type="radio" id="mbhidden" name="mb" value="hidden">
+      <label for="mbhidden">Nee</label><br>
+      
+      <p><lable name="text"><b>BB</b> (groep 6, 7 en 8)</lable>
+      <br><input type="radio" id="bbvisible" name="bb" value="visible">
+      <label for="bbvisible">Ja</label><br>
+      <input type="radio" id="bbhidden" name="bb" value="hidden">
+      <label for="bbhidden">Nee</label><br>
+      
       <p><lable name="text"><b>Subcategorie</b> ("ict-zelfstandig-leren", "ict-zoeken-verwerken-bewaren")</lable>
       <br><textarea id="subcategorie"></textarea>
       <p><lable name="text"><b>Afbeelding</b> (URL naar jpg of png van book cover)</lable>
@@ -36,13 +102,12 @@
       <br><textarea id="apa"></textarea>
       
 
-      <p><input style="background-color:#99ff99;" type="submit" value="Indienen" /> <input style="background-color:#ffcccc;" type="reset" value="Herstarten">
+      <p><input type="submit" value="Indienen" /> <input type="reset" value="Herstarten">
   </form>
+  </div>
 
-  <script src="/js/jquery-3.4.1.min.js"></script>
-
-  <script type="text/javascript">
-    (function($){
+  <script src="/js/jquery-3.4.1.min.js">
+      (function($){
     $('#databaseform').submit(function(e){
         var id = $(this).find('#id').val();
         var titel = $(this).find('#titel').val();
@@ -51,9 +116,9 @@
         var vakgebied = $(this).find('#vakgebied').val();
         var jaartal = $(this).find('#jaartal').val();
         var url = $(this).find('#url').val();
-        var ob = $(this).find('#ob').val();
-        var mb = $(this).find('#mb').val();
-        var bb = $(this).find('#bb').val();
+        var ob = $("input[name='ob']:checked").val();
+        var mb = $("input[name='mb']:checked").val();
+        var bb = $("input[name='bb']:checked").val();        
         var subcategorie = $(this).find('#subcategorie').val();
         var cover = $(this).find('#cover').val();
         var apa = $(this).find('#apa').val();
