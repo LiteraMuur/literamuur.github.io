@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>LiteraMuur | Literatuur voor de Pabo</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/barebones.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- Scripts for Fuse.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="/js/fuse.min.js"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="/js/category.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon-16.png">
+
+</head>
+<body>
+
+  <!-- Navigation Bar
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <img src="/images/favicon-16.png">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link-name" href="/index.html">LiteraMuur</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/literatip.html">LiteraTip</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/nieuws.html">Nieuws</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/help.html">Help</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Category (hide input by style, this input only provides the category to category.js. Change the value of the input below to set category)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <input id="category" class="barsmall" type="text" value="op-taalontwikkeling" style="position: fixed !important; opacity: 0 !important; width: 0px !important; height: 0px !important;">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="grid-container halves">
+    <div>
+
+      <div class="boek">
+      <a href="javascript:history.back()"><< Ga terug</a>
+      </div>
+
+      <div class="boek">
+
+        <p><b>Resultaten</b></p>
+
+        <p>Hieronder staat de gevonden literatuur. Klik <a href="/index.html">hier</a> om terug te gaan naar het begin van de LiteraMuur, of klik op <a>>> Bekijk</a> bij een boek om meer informatie te lezen.</p>
+
+      </div>
+
+      <div id="results"></div>
+
+    </div>
+  </div>
+</div>
+
+
+<nav class="footer" id="footer">
+  Copyright &copy; <span id="year"></span> | <a href="/">LiteraMuur</a>
+
+</nav>
+
+<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
