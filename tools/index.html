@@ -106,8 +106,10 @@ input[type=reset]:hover {
   </form>
   </div>
 
-  <script src="/js/jquery-3.4.1.min.js">
-      (function($){
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  
+  <script>
+    (function($){
     $('#databaseform').submit(function(e){
         var id = $(this).find('#id').val();
         var titel = $(this).find('#titel').val();
