@@ -23,6 +23,12 @@
   <link rel="stylesheet" href="/css/barebones.css">
   <link rel="stylesheet" href="/css/custom.css">
 
+  <!-- Scripts for Fuse.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="/js/fuse.min.js"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="/js/category.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon-16.png">
@@ -45,6 +51,10 @@
     </div>
   </nav>
 
+  <!-- Category (hide input by style, this input only provides the category to category.js. Change the value of the input below to set category)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <input id="category" class="barsmall" type="text" value="rw-erwd-ken" style="position: fixed !important; opacity: 0 !important; width: 0px !important; height: 0px !important;">
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="grid-container halves">
@@ -56,14 +66,13 @@
 
       <div class="boek">
 
-        <p><b>Kies een categorie</b></p>
+        <p><b>Resultaten</b></p>
 
-        <p>
-          <a href="rw-meetkunde-ken.html" class="button" style="background: url(/images/icons/kennis.svg) no-repeat 0.75em center; background-size: 2.2em; padding-left: 3.7em;">Kennis</a>
-          <a href="rw-meetkunde-di.html" class="button" style="background: url(/images/icons/didactiek.svg) no-repeat 0.75em center; background-size: 2.2em; padding-left: 3.7em;">Didactiek</a>
-        </p>
+        <p>Hieronder staat de gevonden literatuur. Klik <a href="/index.html">hier</a> om terug te gaan naar het begin van de LiteraMuur, of klik op <a>>> Bekijk</a> bij een boek om meer informatie te lezen.</p>
 
       </div>
+
+      <div id="results"></div>
 
     </div>
   </div>

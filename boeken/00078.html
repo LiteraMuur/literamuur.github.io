@@ -27,7 +27,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="/js/fuse.min.js"></script>
   <script src="/js/jquery-3.4.1.min.js"></script>
-  <script src="/js/category.js"></script>
+  <script src="/js/id.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -51,9 +51,9 @@
     </div>
   </nav>
 
-  <!-- Category (hide input by style, this input only provides the category to category.js. Change the value of the input below to set category)
+  <!-- Category (hide input by style, this input only provides the id to id.js. Change the value of the input below to set category)
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <input id="category" class="barsmall" type="text" value="rw-vpbk-vak" style="position: fixed !important; opacity: 0 !important; width: 0px !important; height: 0px !important;">
+  <input id="id" class="barsmall" type="text" value="00078" style="position: fixed !important; opacity: 0 !important; width: 0px !important; height: 0px !important;">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -61,18 +61,26 @@
     <div>
 
       <div class="boek">
-      <a href="javascript:history.back()"><< Ga terug</a>
+        <a href="javascript:history.back()"><< Ga terug</a>
       </div>
+
+      <!-- Book appears here
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div id="results"></div>
+
+      <!-- APA goes here
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
       <div class="boek">
 
-        <p><b>Resultaten</b></p>
+        <!-- Titel en schrijver -->
+        APA notatie | <font color ="#5c5c5c">
 
-        <p>Hieronder staat de gevonden literatuur. Klik <a href="/index.html">hier</a> om terug te gaan naar het begin van de LiteraMuur, of klik op <a>>> Bekijk</a> bij een boek om meer informatie te lezen.</p>
+          Oonk, W., Keijzer, R., Lit, S. A., Amse, H., Barth, F., & Lek, A. T. E. (2014). <i>Rekenen-wiskunde in de praktijk Onderbouw.</i> Noordhoff Uitgevers.
+
+        </font>
 
       </div>
-
-      <div id="results"></div>
 
     </div>
   </div>
