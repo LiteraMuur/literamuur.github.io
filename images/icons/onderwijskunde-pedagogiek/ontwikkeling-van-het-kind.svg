@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   enable-background="new 0 0 512 512"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   sodipodi:docname="ontwikkeling-van-het-kind.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <metadata
+     id="metadata8026">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8024" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview8022"
+     showgrid="false"
+     inkscape:zoom="1.7363281"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_1" />
+  <g
+     id="g8019"
+     style="fill:#212121;fill-opacity:1">
+    <path
+       d="m117.944 452h80.445c4.142 0 7.5-3.358 7.5-7.5v-82.495c0-4.142-3.358-7.5-7.5-7.5h-80.445c-4.142 0-7.5 3.358-7.5 7.5v82.495c0 4.142 3.358 7.5 7.5 7.5zm7.5-82.495h65.445v67.495h-65.445z"
+       id="path8007"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m7.5 452h80.444c4.142 0 7.5-3.358 7.5-7.5v-184.747c0-4.142-3.358-7.5-7.5-7.5h-80.444c-4.142 0-7.5 3.358-7.5 7.5v184.747c0 4.142 3.358 7.5 7.5 7.5zm7.5-184.747h65.444v169.747h-65.444z"
+       id="path8009"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m228.389 452h80.444c4.143 0 7.5-3.358 7.5-7.5v-67.495c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v59.995h-65.444v-272h65.444v182.005c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-189.505c0-4.142-3.357-7.5-7.5-7.5h-80.444c-4.142 0-7.5 3.358-7.5 7.5v287c0 4.142 3.358 7.5 7.5 7.5z"
+       id="path8011"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m474.5 120h-105.667c-20.678 0-37.5 16.822-37.5 37.5v122.011c0 12.407 10.094 22.5 22.5 22.5 2.629 0 5.153-.458 7.5-1.29v124.863c0 14.566 11.851 26.417 26.417 26.417 14.565 0 26.416-11.851 26.416-26.417v-138.573h15v138.573c0 14.566 11.851 26.417 26.417 26.417 14.565 0 26.416-11.851 26.416-26.417v-124.786c2.337.784 4.858 1.213 7.501 1.213 12.617 0 22.5-9.664 22.5-22v-122.511c0-20.678-16.822-37.5-37.5-37.5zm22.5 160.011c0 3.991-3.225 7-7.5 7s-7.5-3.009-7.5-7c-.001 0-.001-122.511-.001-122.511 0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v268.083c0 6.295-5.121 11.417-11.416 11.417s-11.417-5.122-11.417-11.417v-146.072c0-4.142-3.357-7.5-7.5-7.5h-30c-4.143 0-7.5 3.358-7.5 7.5v146.073c0 6.295-5.121 11.417-11.416 11.417s-11.417-5.122-11.417-11.417v-268.084c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v122.011c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-122.011c0-12.407 10.094-22.5 22.5-22.5h105.667c12.406 0 22.5 10.093 22.5 22.5z"
+       id="path8013"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m421.338 105c28.948 0 52.5-23.551 52.5-52.5s-23.552-52.5-52.5-52.5-52.5 23.551-52.5 52.5 23.552 52.5 52.5 52.5zm0-90c20.678 0 37.5 16.822 37.5 37.5s-16.822 37.5-37.5 37.5-37.5-16.822-37.5-37.5 16.822-37.5 37.5-37.5z"
+       id="path8015"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m488.29 467h-465.79c-12.407 0-22.5 10.093-22.5 22.5s10.093 22.5 22.5 22.5h465.79c12.406 0 22.5-10.093 22.5-22.5s-10.094-22.5-22.5-22.5zm0 30h-465.79c-4.135 0-7.5-3.364-7.5-7.5s3.365-7.5 7.5-7.5h465.79c4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5z"
+       id="path8017"
+       style="fill:#212121;fill-opacity:1" />
+  </g>
+</svg>
