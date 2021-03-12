@@ -298,7 +298,7 @@ i.fas, i.fab {
 	margin-top: 0em;
 }
 .res {
-	border: solid 1px rgb(189, 189, 189);
+	border: solid 1px var(--border-color-softer);
 	padding: 1em 1.125em;
 	margin-top: -5.5em;
 	margin-bottom: 6.5em;
@@ -346,8 +346,6 @@ i.fas, i.fab {
 a.button {
     -moz-appearance: button;
 	appearance: button;
-
-    color: #000;
 }
 
 /* ---- Groepbubble ---- */

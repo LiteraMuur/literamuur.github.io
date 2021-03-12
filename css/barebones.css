@@ -236,7 +236,7 @@ input[type="button"] {
   display: inline-block;
   height: auto;
   padding: 0 1em;
-  color: var(--text-color-softer);
+  color: var(--text-color-normal);
   text-align: center;
   font-size: 11px;
   font-weight: 600;
