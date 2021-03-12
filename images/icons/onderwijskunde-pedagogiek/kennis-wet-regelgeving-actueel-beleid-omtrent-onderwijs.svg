@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   enable-background="new 0 0 512 512"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   sodipodi:docname="kennis-wet-regelgeving-actueel-beleid-omtrent-onderwijs.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <metadata
+     id="metadata924">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs922" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview920"
+     showgrid="false"
+     inkscape:zoom="1.7363281"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Capa_1" />
+  <g
+     id="g917"
+     style="fill:#212121;fill-opacity:1">
+    <path
+       d="m492 60h10c5.523 0 10-4.477 10-10v-40c0-5.523-4.477-10-10-10h-368c-50.729 0-92 41.271-92 92 0 29.126 13.608 55.131 34.797 72h-26.797c-27.57 0-50 22.43-50 50v84c0 27.57 22.43 50 50 50h26.76c-2.713 2.163-5.328 4.468-7.81 6.95-8.45 8.45-15.08 18.28-19.72 29.24-4.8 11.34-7.23 23.39-7.23 35.81s2.43 24.47 7.23 35.81c4.64 10.96 11.27 20.79 19.72 29.24s18.28 15.08 29.24 19.72c11.34 4.79 23.39 7.23 35.81 7.23h224.29c5.51 0 9.99-4.49 9.99-10s-4.48-10-9.99-10h-224.29c-19.22 0-37.3-7.49-50.91-21.09-13.6-13.61-21.09-31.69-21.09-50.91s7.49-37.3 21.09-50.91c13.61-13.6 31.69-21.09 50.91-21.09h358v20h-358c-28.673 0-52 23.327-52 52s23.327 52 52 52h358v20h-43.71c-5.52 0-10 4.49-10 10 0 5.52 4.48 10 10 10h.01 53.7c2.63 0 5.21-1.07 7.07-2.93s2.93-4.44 2.93-7.07v-40c0-2.63-1.07-5.21-2.93-7.07s-4.44-2.93-7.07-2.93h-10v-64h10c2.63 0 5.21-1.07 7.07-2.93s2.93-4.44 2.93-7.07v-40c0-2.63-1.07-5.21-2.93-7.07s-4.44-2.93-7.07-2.93h-10v-30c0-5.523-4.477-10-10-10h-10v-64h10c5.523 0 10-4.477 10-10v-30h10c5.523 0 10-4.477 10-10v-40c0-5.523-4.477-10-10-10h-10zm-390 360c0-16.973 13.284-30.902 30-31.938v63.876c-16.716-1.036-30-14.965-30-31.938zm50-32h320v22h-146c-5.523 0-10 4.477-10 10s4.477 10 10 10h146v22h-320zm300-100h-390v-64h390v22h-160c-5.523 0-10 4.477-10 10s4.477 10 10 10h160zm20-84h-420c-5.523 0-10 4.477-10 10v84c0 5.523 4.477 10 10 10h420v20h-422c-16.542 0-30-13.458-30-30v-84c0-16.542 13.458-30 30-30h422zm20-40-350-4.5c-39.701 0-80-27.799-80-67.5s32.299-72 72-72h358v20h-358c-28.673 0-52 23.327-52 52s23.327 52 52 52h358zm-20-40h-320v-64h320v22h-92c-5.523 0-10 4.477-10 10s4.477 10 10 10h92zm-370-32c0-16.973 13.284-30.902 30-31.938v63.876c-16.716-1.036-30-14.965-30-31.938z"
+       id="path907"
+       style="fill:#212121;fill-opacity:1" />
+    <circle
+       cx="403.29"
+       cy="502"
+       r="10"
+       id="circle909"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m286 410h-18c-5.523 0-10 4.477-10 10s4.477 10 10 10h18c5.523 0 10-4.477 10-10s-4.477-10-10-10z"
+       id="path911"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m252 246h-54c-5.523 0-10 4.477-10 10s4.477 10 10 10h54c5.523 0 10-4.477 10-10s-4.477-10-10-10z"
+       id="path913"
+       style="fill:#212121;fill-opacity:1" />
+    <path
+       d="m340 82h-18c-5.523 0-10 4.477-10 10s4.477 10 10 10h18c5.523 0 10-4.477 10-10s-4.477-10-10-10z"
+       id="path915"
+       style="fill:#212121;fill-opacity:1" />
+  </g>
+</svg>
