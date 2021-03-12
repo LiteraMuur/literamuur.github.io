@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1018"
+   sodipodi:docname="curriculum-ontwerpen.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <metadata
+     id="metadata1024">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1022" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview1020"
+     showgrid="false"
+     inkscape:zoom="1.7363281"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1018" />
+  <path
+     d="m296 372c5.519531 0 10-4.480469 10-10s-4.480469-10-10-10-10 4.480469-10 10 4.480469 10 10 10zm0 0"
+     id="path1000"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m482 0h-452c-16.542969 0-30 13.457031-30 30v352c0 16.542969 13.457031 30 30 30h176v10c0 16.542969-13.457031 30-30 30-27.625 0-50 22.375-50 50 0 5.523438 4.476562 10 10 10h240c5.523438 0 10-4.476562 10-10 0-27.621094-22.375-50-50-50-8.007812 0-15.539062-3.121094-21.207031-8.789062-5.671875-5.671876-8.792969-13.203126-8.792969-21.210938v-10h176c16.542969 0 30-13.457031 30-30v-352c0-16.542969-13.457031-30-30-30zm-146 472c13.316406 0 24.277344 8.609375 28.296875 20h-216.59375c4.015625-11.382812 14.976563-20 28.296875-20zm-39.996094-20h-80.03125c6.292969-8.363281 10.027344-18.753906 10.027344-30v-10h60v10c0 10.964844 3.515625 21.390625 10.003906 30zm195.996094-70c0 5.515625-4.484375 10-10 10h-452c-5.515625 0-10-4.484375-10-10v-50h472zm-429-70v-252h386v252zm429 0h-23v-262c0-5.523438-4.476562-10-10-10h-406c-5.523438 0-10 4.476562-10 10v262h-23v-282c0-5.515625 4.484375-10 10-10h452c5.515625 0 10 4.484375 10 10zm0 0"
+     id="path1002"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m176 106h-80c-5.523438 0-10 4.476562-10 10v100c0 5.523438 4.476562 10 10 10h80c5.523438 0 10-4.476562 10-10v-100c0-5.523438-4.476562-10-10-10zm-10 100h-60v-80h60zm0 0"
+     id="path1004"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m296 106h-80c-5.523438 0-10 4.476562-10 10v100c0 5.523438 4.476562 10 10 10h80c5.523438 0 10-4.476562 10-10v-100c0-5.523438-4.476562-10-10-10zm-10 100h-60v-80h60zm0 0"
+     id="path1006"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m416 106h-80c-5.523438 0-10 4.476562-10 10v100c0 5.523438 4.476562 10 10 10h80c5.523438 0 10-4.476562 10-10v-100c0-5.523438-4.476562-10-10-10zm-10 100h-60v-80h60zm0 0"
+     id="path1008"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m176 246h-80c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h80c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10zm0 0"
+     id="path1010"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m296 246h-80c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h80c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10zm0 0"
+     id="path1012"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m416 246h-80c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h80c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10zm0 0"
+     id="path1014"
+     style="fill:#212121;fill-opacity:1" />
+  <path
+     d="m216 372h40c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-40c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10zm0 0"
+     id="path1016"
+     style="fill:#212121;fill-opacity:1" />
+</svg>
